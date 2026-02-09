@@ -281,7 +281,7 @@ function MatchCard({ game, team, featured }) {
     const isLoss = game.result === 'L';
     const homeSlug = getCanonicalTeamSlug(team.name);
     const oppSlug = getCanonicalTeamSlug(game.opponent.name);
-    const matchupSlug = `${homeSlug}-vs-${oppSlug}-match-player-stats`;
+    const matchupSlug = game.matchupSlug || `${homeSlug}-vs-${oppSlug}-match-player-stats`;
 
     return (
         <Link
@@ -336,4 +336,3 @@ function MatchCard({ game, team, featured }) {
         </Link>
     );
 }
-
