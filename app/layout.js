@@ -12,8 +12,24 @@ const robotoMono = Roboto_Mono({
 });
 
 export const metadata = {
-  title: "StatYards: Live Sports Data",
-  description: "Real-time data for smart betting.",
+  title: {
+    template: '%s | StatYards',
+    default: 'StatYards: Live Sports Data & Analytics',
+  },
+  description: "Real-time sports data, player statistics, and analytics for smart decision making.",
+  keywords: ['sports data', 'NFL stats', 'player analytics', 'live scores', 'StatYards'],
+  openGraph: {
+    title: 'StatYards: Live Sports Data & Analytics',
+    description: 'Real-time sports data, player statistics, and analytics for smart decision making.',
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'StatYards',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'StatYards: Live Sports Data & Analytics',
+    description: 'Real-time sports data, player statistics, and analytics for smart decision making.',
+  },
 };
 
 import Navbar from "@/components/Navbar";
