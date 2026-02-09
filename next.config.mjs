@@ -1,6 +1,21 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'a.espncdn.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 's.espncdn.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'upload.wikimedia.org'
+      }
+    ],
+  },
 };
 
 export default nextConfig;

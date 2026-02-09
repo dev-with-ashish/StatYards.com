@@ -1,0 +1,954 @@
+id,parent_id,level,url,keyword,intent,volume,keyword_difficulty,source,notes
+1,,0,/,StatsYard NFL match player stats,Navigational,,,derived,Homepage
+2,1,1,/nfl/match-player-stats,match player stats,"Informational, Commercial",,,derived,Pillar page for the cluster
+3,2,2,/nfl/{season}/match-player-stats,{season} match player stats,Informational,,,derived,Season hub page
+4,2,2,/nfl/teams,NFL team player stats,Informational,,,derived,Teams index
+5,2,2,/nfl/stats-glossary,NFL stats glossary,Informational,,,derived,Evergreen glossary page
+6,4,3,/nfl/teams/49ers/player-stats,49ers player stats,"Informational, Commercial",,,derived,Team stats hub
+7,4,3,/nfl/teams/76ers/player-stats,76ers player stats,"Informational, Commercial",,,derived,Team stats hub
+8,4,3,/nfl/teams/alabama/player-stats,alabama player stats,"Informational, Commercial",,,derived,Team stats hub
+9,4,3,/nfl/teams/arizona-cardinals/player-stats,arizona cardinals player stats,"Informational, Commercial",,,derived,Team stats hub
+10,4,3,/nfl/teams/arizona-state/player-stats,arizona state player stats,"Informational, Commercial",,,derived,Team stats hub
+11,4,3,/nfl/teams/atlanta-braves/player-stats,atlanta braves player stats,"Informational, Commercial",,,derived,Team stats hub
+12,4,3,/nfl/teams/atlanta-dream/player-stats,atlanta dream player stats,"Informational, Commercial",,,derived,Team stats hub
+13,4,3,/nfl/teams/atlanta-falcons/player-stats,atlanta falcons player stats,"Informational, Commercial",,,derived,Team stats hub
+14,4,3,/nfl/teams/atlanta-hawks/player-stats,atlanta hawks player stats,"Informational, Commercial",,,derived,Team stats hub
+15,4,3,/nfl/teams/baltimore-orioles/player-stats,baltimore orioles player stats,"Informational, Commercial",,,derived,Team stats hub
+16,4,3,/nfl/teams/baltimore-ravens/player-stats,baltimore ravens player stats,"Informational, Commercial",,,derived,Team stats hub
+17,4,3,/nfl/teams/bengals/player-stats,bengals player stats,"Informational, Commercial",,,derived,Team stats hub
+18,4,3,/nfl/teams/boise-state/player-stats,boise state player stats,"Informational, Commercial",,,derived,Team stats hub
+19,4,3,/nfl/teams/boston-celtics/player-stats,boston celtics player stats,"Informational, Commercial",,,derived,Team stats hub
+20,4,3,/nfl/teams/brooklyn-nets/player-stats,brooklyn nets player stats,"Informational, Commercial",,,derived,Team stats hub
+21,4,3,/nfl/teams/brøndby/player-stats,brøndby player stats,"Informational, Commercial",,,derived,Team stats hub
+22,4,3,/nfl/teams/buffalo-bills/player-stats,buffalo bills player stats,"Informational, Commercial",,,derived,Team stats hub
+23,4,3,/nfl/teams/carolina-panthers/player-stats,carolina panthers player stats,"Informational, Commercial",,,derived,Team stats hub
+24,4,3,/nfl/teams/celtics/player-stats,celtics player stats,"Informational, Commercial",,,derived,Team stats hub
+25,4,3,/nfl/teams/chargers/player-stats,chargers player stats,"Informational, Commercial",,,derived,Team stats hub
+26,4,3,/nfl/teams/charlotte-hornets/player-stats,charlotte hornets player stats,"Informational, Commercial",,,derived,Team stats hub
+27,4,3,/nfl/teams/chelsea-fc/player-stats,chelsea f.c. player stats,"Informational, Commercial",,,derived,Team stats hub
+28,4,3,/nfl/teams/chicago-bears/player-stats,chicago bears player stats,"Informational, Commercial",,,derived,Team stats hub
+29,4,3,/nfl/teams/chicago-bulls/player-stats,chicago bulls player stats,"Informational, Commercial",,,derived,Team stats hub
+30,4,3,/nfl/teams/chicago-cubs/player-stats,chicago cubs player stats,"Informational, Commercial",,,derived,Team stats hub
+31,4,3,/nfl/teams/chicago-sky/player-stats,chicago sky player stats,"Informational, Commercial",,,derived,Team stats hub
+32,4,3,/nfl/teams/cincinnati-reds/player-stats,cincinnati reds player stats,"Informational, Commercial",,,derived,Team stats hub
+33,4,3,/nfl/teams/cleveland-browns/player-stats,cleveland browns player stats,"Informational, Commercial",,,derived,Team stats hub
+34,4,3,/nfl/teams/cleveland-cavaliers/player-stats,cleveland cavaliers player stats,"Informational, Commercial",,,derived,Team stats hub
+35,4,3,/nfl/teams/cleveland-guardians/player-stats,cleveland guardians player stats,"Informational, Commercial",,,derived,Team stats hub
+36,4,3,/nfl/teams/clippers/player-stats,clippers player stats,"Informational, Commercial",,,derived,Team stats hub
+37,4,3,/nfl/teams/colorado-rockies/player-stats,colorado rockies player stats,"Informational, Commercial",,,derived,Team stats hub
+38,4,3,/nfl/teams/colts/player-stats,colts player stats,"Informational, Commercial",,,derived,Team stats hub
+39,4,3,/nfl/teams/connecticut-sun/player-stats,connecticut sun player stats,"Informational, Commercial",,,derived,Team stats hub
+40,4,3,/nfl/teams/dallas-cowboys/player-stats,dallas cowboys player stats,"Informational, Commercial",,,derived,Team stats hub
+41,4,3,/nfl/teams/dallas-mavericks/player-stats,dallas mavericks player stats,"Informational, Commercial",,,derived,Team stats hub
+42,4,3,/nfl/teams/dallas-wings/player-stats,dallas wings player stats,"Informational, Commercial",,,derived,Team stats hub
+43,4,3,/nfl/teams/denver-broncos/player-stats,denver broncos player stats,"Informational, Commercial",,,derived,Team stats hub
+44,4,3,/nfl/teams/denver-nuggets/player-stats,denver nuggets player stats,"Informational, Commercial",,,derived,Team stats hub
+45,4,3,/nfl/teams/detroit-lions/player-stats,detroit lions player stats,"Informational, Commercial",,,derived,Team stats hub
+46,4,3,/nfl/teams/detroit-pistons/player-stats,detroit pistons player stats,"Informational, Commercial",,,derived,Team stats hub
+47,4,3,/nfl/teams/detroit-tigers/player-stats,detroit tigers player stats,"Informational, Commercial",,,derived,Team stats hub
+48,4,3,/nfl/teams/dodgers/player-stats,dodgers player stats,"Informational, Commercial",,,derived,Team stats hub
+49,4,3,/nfl/teams/fc-barcelona/player-stats,fc barcelona player stats,"Informational, Commercial",,,derived,Team stats hub
+50,4,3,/nfl/teams/florida-state/player-stats,florida state player stats,"Informational, Commercial",,,derived,Team stats hub
+51,4,3,/nfl/teams/golden-state-valkyries/player-stats,golden state valkyries player stats,"Informational, Commercial",,,derived,Team stats hub
+52,4,3,/nfl/teams/golden-state-valkyries-timeline/player-stats,golden state valkyries timeline player stats,"Informational, Commercial",,,derived,Team stats hub
+53,4,3,/nfl/teams/golden-state-warriors/player-stats,golden state warriors player stats,"Informational, Commercial",,,derived,Team stats hub
+54,4,3,/nfl/teams/grambling-st/player-stats,grambling st player stats,"Informational, Commercial",,,derived,Team stats hub
+55,4,3,/nfl/teams/green-bay-packers/player-stats,green bay packers player stats,"Informational, Commercial",,,derived,Team stats hub
+56,4,3,/nfl/teams/houston-rockets/player-stats,houston rockets player stats,"Informational, Commercial",,,derived,Team stats hub
+57,4,3,/nfl/teams/houston-rockets-timeline/player-stats,houston rockets timeline player stats,"Informational, Commercial",,,derived,Team stats hub
+58,4,3,/nfl/teams/houston-texans/player-stats,houston texans player stats,"Informational, Commercial",,,derived,Team stats hub
+59,4,3,/nfl/teams/illinois/player-stats,illinois player stats,"Informational, Commercial",,,derived,Team stats hub
+60,4,3,/nfl/teams/indiana-fever/player-stats,indiana fever player stats,"Informational, Commercial",,,derived,Team stats hub
+61,4,3,/nfl/teams/indiana-pacers/player-stats,indiana pacers player stats,"Informational, Commercial",,,derived,Team stats hub
+62,4,3,/nfl/teams/indianapolis-colts/player-stats,indianapolis colts player stats,"Informational, Commercial",,,derived,Team stats hub
+63,4,3,/nfl/teams/iowa/player-stats,iowa player stats,"Informational, Commercial",,,derived,Team stats hub
+64,4,3,/nfl/teams/jacksonville-jaguars/player-stats,jacksonville jaguars player stats,"Informational, Commercial",,,derived,Team stats hub
+65,4,3,/nfl/teams/kansas-city-chiefs/player-stats,kansas city chiefs player stats,"Informational, Commercial",,,derived,Team stats hub
+66,4,3,/nfl/teams/kansas-state/player-stats,kansas state player stats,"Informational, Commercial",,,derived,Team stats hub
+67,4,3,/nfl/teams/knicks/player-stats,knicks player stats,"Informational, Commercial",,,derived,Team stats hub
+68,4,3,/nfl/teams/la-clippers/player-stats,la clippers player stats,"Informational, Commercial",,,derived,Team stats hub
+69,4,3,/nfl/teams/lakers/player-stats,lakers player stats,"Informational, Commercial",,,derived,Team stats hub
+70,4,3,/nfl/teams/las-vegas-aces/player-stats,las vegas aces player stats,"Informational, Commercial",,,derived,Team stats hub
+71,4,3,/nfl/teams/las-vegas-raiders/player-stats,las vegas raiders player stats,"Informational, Commercial",,,derived,Team stats hub
+72,4,3,/nfl/teams/los-angeles-angels/player-stats,los angeles angels player stats,"Informational, Commercial",,,derived,Team stats hub
+73,4,3,/nfl/teams/los-angeles-chargers/player-stats,los angeles chargers player stats,"Informational, Commercial",,,derived,Team stats hub
+74,4,3,/nfl/teams/los-angeles-rams/player-stats,los angeles rams player stats,"Informational, Commercial",,,derived,Team stats hub
+75,4,3,/nfl/teams/memphis-grizzlies/player-stats,memphis grizzlies player stats,"Informational, Commercial",,,derived,Team stats hub
+76,4,3,/nfl/teams/mets/player-stats,mets player stats,"Informational, Commercial",,,derived,Team stats hub
+77,4,3,/nfl/teams/miami-dolphins/player-stats,miami dolphins player stats,"Informational, Commercial",,,derived,Team stats hub
+78,4,3,/nfl/teams/miami-heat/player-stats,miami heat player stats,"Informational, Commercial",,,derived,Team stats hub
+79,4,3,/nfl/teams/michigan/player-stats,michigan player stats,"Informational, Commercial",,,derived,Team stats hub
+80,4,3,/nfl/teams/milwaukee-brewers/player-stats,milwaukee brewers player stats,"Informational, Commercial",,,derived,Team stats hub
+81,4,3,/nfl/teams/milwaukee-bucks/player-stats,milwaukee bucks player stats,"Informational, Commercial",,,derived,Team stats hub
+82,4,3,/nfl/teams/minnesota-lynx/player-stats,minnesota lynx player stats,"Informational, Commercial",,,derived,Team stats hub
+83,4,3,/nfl/teams/minnesota-timberwolves/player-stats,minnesota timberwolves player stats,"Informational, Commercial",,,derived,Team stats hub
+84,4,3,/nfl/teams/minnesota-vikings/player-stats,minnesota vikings player stats,"Informational, Commercial",,,derived,Team stats hub
+85,4,3,/nfl/teams/ms-state/player-stats,ms state player stats,"Informational, Commercial",,,derived,Team stats hub
+86,4,3,/nfl/teams/nc-a&t/player-stats,nc a&t player stats,"Informational, Commercial",,,derived,Team stats hub
+87,4,3,/nfl/teams/new-england-patriots/player-stats,new england patriots player stats,"Informational, Commercial",,,derived,Team stats hub
+88,4,3,/nfl/teams/new-orleans-pelicans/player-stats,new orleans pelicans player stats,"Informational, Commercial",,,derived,Team stats hub
+89,4,3,/nfl/teams/new-orleans-saints/player-stats,new orleans saints player stats,"Informational, Commercial",,,derived,Team stats hub
+90,4,3,/nfl/teams/new-york-giants/player-stats,new york giants player stats,"Informational, Commercial",,,derived,Team stats hub
+91,4,3,/nfl/teams/new-york-jets/player-stats,new york jets player stats,"Informational, Commercial",,,derived,Team stats hub
+92,4,3,/nfl/teams/new-york-liberty/player-stats,new york liberty player stats,"Informational, Commercial",,,derived,Team stats hub
+93,4,3,/nfl/teams/new-york-liberty-timeline/player-stats,new york liberty timeline player stats,"Informational, Commercial",,,derived,Team stats hub
+94,4,3,/nfl/teams/new-york-yankees/player-stats,new york yankees player stats,"Informational, Commercial",,,derived,Team stats hub
+95,4,3,/nfl/teams/newcastle-united-fc/player-stats,newcastle united f.c. player stats,"Informational, Commercial",,,derived,Team stats hub
+96,4,3,/nfl/teams/notre-dame/player-stats,notre dame player stats,"Informational, Commercial",,,derived,Team stats hub
+97,4,3,/nfl/teams/ohio/player-stats,ohio player stats,"Informational, Commercial",,,derived,Team stats hub
+98,4,3,/nfl/teams/ohio-state/player-stats,ohio state player stats,"Informational, Commercial",,,derived,Team stats hub
+99,4,3,/nfl/teams/okc-thunder/player-stats,okc thunder player stats,"Informational, Commercial",,,derived,Team stats hub
+100,4,3,/nfl/teams/oklahoma-city-thunder/player-stats,oklahoma city thunder player stats,"Informational, Commercial",,,derived,Team stats hub
+101,4,3,/nfl/teams/oregon/player-stats,oregon player stats,"Informational, Commercial",,,derived,Team stats hub
+102,4,3,/nfl/teams/orlando-magic/player-stats,orlando magic player stats,"Informational, Commercial",,,derived,Team stats hub
+103,4,3,/nfl/teams/pacers/player-stats,pacers player stats,"Informational, Commercial",,,derived,Team stats hub
+104,4,3,/nfl/teams/padres/player-stats,padres player stats,"Informational, Commercial",,,derived,Team stats hub
+105,4,3,/nfl/teams/penn-state/player-stats,penn state player stats,"Informational, Commercial",,,derived,Team stats hub
+106,4,3,/nfl/teams/philadelphia-eagles/player-stats,philadelphia eagles player stats,"Informational, Commercial",,,derived,Team stats hub
+107,4,3,/nfl/teams/phillies/player-stats,phillies player stats,"Informational, Commercial",,,derived,Team stats hub
+108,4,3,/nfl/teams/phoenix-mercury/player-stats,phoenix mercury player stats,"Informational, Commercial",,,derived,Team stats hub
+109,4,3,/nfl/teams/phoenix-suns/player-stats,phoenix suns player stats,"Informational, Commercial",,,derived,Team stats hub
+110,4,3,/nfl/teams/pittsburgh-steelers/player-stats,pittsburgh steelers player stats,"Informational, Commercial",,,derived,Team stats hub
+111,4,3,/nfl/teams/portland-trail-blazers/player-stats,portland trail blazers player stats,"Informational, Commercial",,,derived,Team stats hub
+112,4,3,/nfl/teams/psg/player-stats,psg player stats,"Informational, Commercial",,,derived,Team stats hub
+113,4,3,/nfl/teams/rc-strasbourg-alsace/player-stats,rc strasbourg alsace player stats,"Informational, Commercial",,,derived,Team stats hub
+114,4,3,/nfl/teams/real-madrid/player-stats,real madrid player stats,"Informational, Commercial",,,derived,Team stats hub
+115,4,3,/nfl/teams/red-sox/player-stats,red sox player stats,"Informational, Commercial",,,derived,Team stats hub
+116,4,3,/nfl/teams/sacramento-kings/player-stats,sacramento kings player stats,"Informational, Commercial",,,derived,Team stats hub
+117,4,3,/nfl/teams/sam-houston-state-prediction/player-stats,sam houston state prediction player stats,"Informational, Commercial",,,derived,Team stats hub
+118,4,3,/nfl/teams/san-antonio-spurs/player-stats,san antonio spurs player stats,"Informational, Commercial",,,derived,Team stats hub
+119,4,3,/nfl/teams/san-francisco-giants/player-stats,san francisco giants player stats,"Informational, Commercial",,,derived,Team stats hub
+120,4,3,/nfl/teams/seahawks/player-stats,seahawks player stats,"Informational, Commercial",,,derived,Team stats hub
+121,4,3,/nfl/teams/seattle-mariners/player-stats,seattle mariners player stats,"Informational, Commercial",,,derived,Team stats hub
+122,4,3,/nfl/teams/seattle-storm/player-stats,seattle storm player stats,"Informational, Commercial",,,derived,Team stats hub
+123,4,3,/nfl/teams/smu/player-stats,smu player stats,"Informational, Commercial",,,derived,Team stats hub
+124,4,3,/nfl/teams/steelers/player-stats,steelers player stats,"Informational, Commercial",,,derived,Team stats hub
+125,4,3,/nfl/teams/tampa-bay-buccaneers/player-stats,tampa bay buccaneers player stats,"Informational, Commercial",,,derived,Team stats hub
+126,4,3,/nfl/teams/tampa-bay-rays/player-stats,tampa bay rays player stats,"Informational, Commercial",,,derived,Team stats hub
+127,4,3,/nfl/teams/tennessee/player-stats,tennessee player stats,"Informational, Commercial",,,derived,Team stats hub
+128,4,3,/nfl/teams/tennessee-titans/player-stats,tennessee titans player stats,"Informational, Commercial",,,derived,Team stats hub
+129,4,3,/nfl/teams/texans/player-stats,texans player stats,"Informational, Commercial",,,derived,Team stats hub
+130,4,3,/nfl/teams/texas/player-stats,texas player stats,"Informational, Commercial",,,derived,Team stats hub
+131,4,3,/nfl/teams/texas-rangers/player-stats,texas rangers player stats,"Informational, Commercial",,,derived,Team stats hub
+132,4,3,/nfl/teams/timberwolves/player-stats,timberwolves player stats,"Informational, Commercial",,,derived,Team stats hub
+133,4,3,/nfl/teams/tn-state/player-stats,tn state player stats,"Informational, Commercial",,,derived,Team stats hub
+134,4,3,/nfl/teams/toronto-blue-jays/player-stats,toronto blue jays player stats,"Informational, Commercial",,,derived,Team stats hub
+135,4,3,/nfl/teams/toronto-raptors/player-stats,toronto raptors player stats,"Informational, Commercial",,,derived,Team stats hub
+136,4,3,/nfl/teams/und/player-stats,und player stats,"Informational, Commercial",,,derived,Team stats hub
+137,4,3,/nfl/teams/unlv/player-stats,unlv player stats,"Informational, Commercial",,,derived,Team stats hub
+138,4,3,/nfl/teams/utah-jazz/player-stats,utah jazz player stats,"Informational, Commercial",,,derived,Team stats hub
+139,4,3,/nfl/teams/washington/player-stats,washington player stats,"Informational, Commercial",,,derived,Team stats hub
+140,4,3,/nfl/teams/washington-commanders/player-stats,washington commanders player stats,"Informational, Commercial",,,derived,Team stats hub
+141,4,3,/nfl/teams/washington-nationals/player-stats,washington nationals player stats,"Informational, Commercial",,,derived,Team stats hub
+142,4,3,/nfl/teams/washington-wizards/player-stats,washington wizards player stats,"Informational, Commercial",,,derived,Team stats hub
+143,4,3,/nfl/teams/wisconsin/player-stats,wisconsin player stats,"Informational, Commercial",,,derived,Team stats hub
+144,3,3,/nfl/{season}/cleveland-browns-vs-steelers-match-player-stats-{date},cleveland browns vs steelers match player stats,"Informational, Commercial",60500,17,csv,cleveland browns vs steelers matchup
+145,3,3,/nfl/{season}/seahawks-vs-new-york-jets-match-player-stats-{date},seahawks vs new york jets match player stats,Commercial,74000,17,csv,seahawks vs new york jets matchup
+146,3,3,/nfl/{season}/tampa-bay-buccaneers-vs-new-york-giants-match-player-stats-{date},tampa bay buccaneers vs new york giants match player stats,Commercial,60500,17,csv,tampa bay buccaneers vs new york giants matchup
+147,3,3,/nfl/{season}/cleveland-browns-vs-denver-broncos-match-player-stats-{date},cleveland browns vs denver broncos match player stats,Commercial,135000,18,csv,cleveland browns vs denver broncos matchup
+148,3,3,/nfl/{season}/minnesota-vikings-vs-jacksonville-jaguars-match-player-stats-{date},minnesota vikings vs jacksonville jaguars match player stats,"Informational, Commercial",60500,19,csv,minnesota vikings vs jacksonville jaguars matchup
+149,3,3,/nfl/{season}/buffalo-bills-vs-new-york-jets-match-player-stats-{date},buffalo bills vs new york jets match player stats,Commercial,90500,20,csv,buffalo bills vs new york jets matchup
+150,3,3,/nfl/{season}/buffalo-bills-vs-los-angeles-rams-match-player-stats-{date},buffalo bills vs los angeles rams match player stats,Commercial,74000,21,csv,buffalo bills vs los angeles rams matchup
+151,3,3,/nfl/{season}/detroit-lions-vs-colts-match-player-stats-{date},detroit lions vs colts match player stats,Commercial,60500,21,csv,detroit lions vs colts matchup
+152,3,3,/nfl/{season}/las-vegas-raiders-vs-kansas-city-chiefs-match-player-stats-{date},las vegas raiders vs kansas city chiefs match player stats,"Informational, Commercial",246000,21,csv,las vegas raiders vs kansas city chiefs matchup
+153,3,3,/nfl/{season}/miami-dolphins-vs-los-angeles-rams-match-player-stats-{date},miami dolphins vs los angeles rams match player stats,Commercial,90500,21,csv,miami dolphins vs los angeles rams matchup
+154,3,3,/nfl/{season}/nc-a&t-vs-tn-state-{date},nc a&t vs tn state,Informational,90500,21,csv,nc a&t vs tn state matchup
+155,3,3,/nfl/{season}/und-vs-kansas-state-{date},und vs kansas state,"Informational, Commercial",823000,21,csv,und vs kansas state matchup
+156,3,3,/nfl/{season}/texas-vs-ms-state-{date},texas vs ms state,Informational,60500,22,csv,texas vs ms state matchup
+157,3,3,/nfl/{season}/unlv-vs-sam-houston-state-prediction-{date},unlv vs sam houston state prediction,Commercial,90500,22,csv,unlv vs sam houston state prediction matchup
+158,3,3,/nfl/{season}/49ers-vs-los-angeles-rams-match-player-stats-{date},49ers vs los angeles rams match player stats,"Informational, Commercial",201000,23,csv,49ers vs los angeles rams matchup
+159,3,3,/nfl/{season}/philadelphia-eagles-vs-tampa-bay-buccaneers-match-player-stats-{date},philadelphia eagles vs tampa bay buccaneers match player stats,"Informational, Commercial",165000,23,csv,philadelphia eagles vs tampa bay buccaneers matchup
+160,3,3,/nfl/{season}/colts-vs-minnesota-vikings-match-player-stats-{date},colts vs minnesota vikings match player stats,"Informational, Commercial",74000,24,csv,colts vs minnesota vikings matchup
+161,3,3,/nfl/{season}/jacksonville-jaguars-vs-detroit-lions-match-player-stats-{date},jacksonville jaguars vs detroit lions match player stats,"Informational, Commercial",110000,24,csv,jacksonville jaguars vs detroit lions matchup
+162,3,3,/nfl/{season}/los-angeles-rams-vs-49ers-match-player-stats-{date},los angeles rams vs 49ers match player stats,Commercial,110000,24,csv,los angeles rams vs 49ers matchup
+163,3,3,/nfl/{season}/miami-dolphins-vs-new-york-jets-match-player-stats-{date},miami dolphins vs new york jets match player stats,Commercial,74000,24,csv,miami dolphins vs new york jets matchup
+164,3,3,/nfl/{season}/minnesota-vikings-vs-pittsburgh-steelers-match-player-stats-{date},minnesota vikings vs pittsburgh steelers match player stats,"Informational, Commercial",135000,24,csv,minnesota vikings vs pittsburgh steelers matchup
+165,3,3,/nfl/{season}/rc-strasbourg-alsace-vs-brøndby-stats-{date},rc strasbourg alsace vs brøndby stats,"Informational, Commercial",246000,24,csv,rc strasbourg alsace vs brøndby stats matchup
+166,3,3,/nfl/{season}/denver-broncos-vs-baltimore-ravens-match-player-stats-{date},denver broncos vs baltimore ravens match player stats,Commercial,74000,25,csv,denver broncos vs baltimore ravens matchup
+167,3,3,/nfl/{season}/minnesota-vikings-vs-seahawks-match-player-stats-{date},minnesota vikings vs seahawks match player stats,"Informational, Commercial",60500,25,csv,minnesota vikings vs seahawks matchup
+168,3,3,/nfl/{season}/newcastle-united-fc-vs-fc-barcelona-stats-{date},newcastle united f.c. vs fc barcelona stats,Commercial,60500,25,csv,newcastle united f.c. vs fc barcelona stats matchup
+169,3,3,/nfl/{season}/chargers-vs-texans-match-player-stats-{date},chargers vs texans match player stats,"Informational, Commercial",135000,26,csv,chargers vs texans matchup
+170,3,3,/nfl/{season}/houston-texans-vs-dallas-cowboys-match-player-stats-{date},houston texans vs dallas cowboys match player stats,"Informational, Commercial",110000,26,csv,houston texans vs dallas cowboys matchup
+171,3,3,/nfl/{season}/minnesota-vikings-vs-cleveland-browns-match-player-stats-{date},minnesota vikings vs cleveland browns match player stats,Commercial,165000,26,csv,minnesota vikings vs cleveland browns matchup
+172,3,3,/nfl/{season}/new-york-jets-vs-arizona-cardinals-match-player-stats-{date},new york jets vs arizona cardinals match player stats,"Informational, Commercial",74000,26,csv,new york jets vs arizona cardinals matchup
+173,3,3,/nfl/{season}/steelers-vs-cleveland-browns-match-player-stats-{date},steelers vs cleveland browns match player stats,"Informational, Commercial",135000,26,csv,steelers vs cleveland browns matchup
+174,3,3,/nfl/{season}/bengals-vs-baltimore-ravens-match-player-stats-{date},bengals vs baltimore ravens match player stats,Commercial,165000,27,csv,bengals vs baltimore ravens matchup
+175,3,3,/nfl/{season}/dallas-cowboys-vs-washington-commanders-match-player-stats-{date},dallas cowboys vs washington commanders match player stats,"Informational, Commercial",90500,27,csv,dallas cowboys vs washington commanders matchup
+176,3,3,/nfl/{season}/mets-vs-washington-nationals-match-player-stats-{date},mets vs washington nationals match player stats,Commercial,60500,27,csv,mets vs washington nationals matchup
+177,3,3,/nfl/{season}/new-york-giants-vs-atlanta-falcons-match-player-stats-{date},new york giants vs atlanta falcons match player stats,Commercial,60500,27,csv,new york giants vs atlanta falcons matchup
+178,3,3,/nfl/{season}/new-york-giants-vs-dallas-cowboys-match-player-stats-{date},new york giants vs dallas cowboys match player stats,Commercial,201000,27,csv,new york giants vs dallas cowboys matchup
+179,3,3,/nfl/{season}/sacramento-kings-vs-phoenix-suns-match-player-stats-{date},sacramento kings vs phoenix suns match player stats,Commercial,74000,27,csv,sacramento kings vs phoenix suns matchup
+180,3,3,/nfl/{season}/buffalo-bills-vs-detroit-lions-match-player-stats-{date},buffalo bills vs detroit lions match player stats,Commercial,135000,28,csv,buffalo bills vs detroit lions matchup
+181,3,3,/nfl/{season}/cleveland-cavaliers-vs-okc-thunder-match-player-stats-{date},cleveland cavaliers vs okc thunder match player stats,"Informational, Commercial",90500,28,csv,cleveland cavaliers vs okc thunder matchup
+182,3,3,/nfl/{season}/dallas-mavericks-vs-golden-state-warriors-match-player-stats-{date},dallas mavericks vs golden state warriors match player stats,"Informational, Commercial",165000,28,csv,dallas mavericks vs golden state warriors matchup
+183,3,3,/nfl/{season}/denver-broncos-vs-bengals-match-player-stats-{date},denver broncos vs bengals match player stats,Commercial,135000,28,csv,denver broncos vs bengals matchup
+184,3,3,/nfl/{season}/knicks-vs-detroit-pistons-match-player-stats-{date},knicks vs detroit pistons match player stats,"Informational, Commercial",110000,28,csv,knicks vs detroit pistons matchup
+185,3,3,/nfl/{season}/mets-vs-phillies-match-player-stats-{date},mets vs phillies match player stats,"Informational, Commercial",60500,28,csv,mets vs phillies matchup
+186,3,3,/nfl/{season}/miami-heat-vs-atlanta-hawks-match-player-stats-{date},miami heat vs atlanta hawks match player stats,"Informational, Commercial",60500,28,csv,miami heat vs atlanta hawks matchup
+187,3,3,/nfl/{season}/new-york-giants-vs-carolina-panthers-match-player-stats-{date},new york giants vs carolina panthers match player stats,Commercial,74000,28,csv,new york giants vs carolina panthers matchup
+188,3,3,/nfl/{season}/steelers-vs-washington-commanders-match-player-stats-{date},steelers vs washington commanders match player stats,Commercial,74000,28,csv,steelers vs washington commanders matchup
+189,3,3,/nfl/{season}/buffalo-bills-vs-new-england-patriots-match-player-stats-{date},buffalo bills vs new england patriots match player stats,Commercial,74000,29,csv,buffalo bills vs new england patriots matchup
+190,3,3,/nfl/{season}/cleveland-browns-vs-bengals-match-player-stats-{date},cleveland browns vs bengals match player stats,Commercial,60500,29,csv,cleveland browns vs bengals matchup
+191,3,3,/nfl/{season}/denver-broncos-vs-philadelphia-eagles-match-player-stats-{date},denver broncos vs philadelphia eagles match player stats,Commercial,135000,29,csv,denver broncos vs philadelphia eagles matchup
+192,3,3,/nfl/{season}/golden-state-warriors-vs-dallas-mavericks-match-player-stats-{date},golden state warriors vs dallas mavericks match player stats,Commercial,74000,29,csv,golden state warriors vs dallas mavericks matchup
+193,3,3,/nfl/{season}/mets-vs-new-york-yankees-match-player-stats-{date},mets vs new york yankees match player stats,Commercial,74000,29,csv,mets vs new york yankees matchup
+194,3,3,/nfl/{season}/philadelphia-eagles-vs-washington-commanders-match-player-stats-{date},philadelphia eagles vs washington commanders match player stats,"Informational, Commercial",201000,29,csv,philadelphia eagles vs washington commanders matchup
+195,3,3,/nfl/{season}/washington-commanders-vs-new-york-giants-match-player-stats-{date},washington commanders vs new york giants match player stats,Commercial,74000,29,csv,washington commanders vs new york giants matchup
+196,3,3,/nfl/{season}/dodgers-vs-chicago-cubs-match-player-stats-{date},dodgers vs chicago cubs match player stats,"Informational, Commercial",60500,30,csv,dodgers vs chicago cubs matchup
+197,3,3,/nfl/{season}/miami-dolphins-vs-buffalo-bills-match-player-stats-{date},miami dolphins vs buffalo bills match player stats,"Informational, Commercial",201000,30,csv,miami dolphins vs buffalo bills matchup
+198,3,3,/nfl/{season}/minnesota-vikings-vs-chicago-bears-match-player-stats-{date},minnesota vikings vs chicago bears match player stats,Commercial,246000,30,csv,minnesota vikings vs chicago bears matchup
+199,3,3,/nfl/{season}/new-york-giants-vs-washington-commanders-match-player-stats-{date},new york giants vs washington commanders match player stats,Commercial,90500,30,csv,new york giants vs washington commanders matchup
+200,3,3,/nfl/{season}/san-antonio-spurs-vs-new-orleans-pelicans-match-player-stats-{date},san antonio spurs vs new orleans pelicans match player stats,"Informational, Commercial",60500,30,csv,san antonio spurs vs new orleans pelicans matchup
+201,3,3,/nfl/{season}/seattle-mariners-vs-new-york-yankees-match-player-stats-{date},seattle mariners vs new york yankees match player stats,Commercial,60500,30,csv,seattle mariners vs new york yankees matchup
+202,3,3,/nfl/{season}/washington-commanders-vs-dallas-cowboys-match-player-stats-{date},washington commanders vs dallas cowboys match player stats,Commercial,246000,30,csv,washington commanders vs dallas cowboys matchup
+203,3,3,/nfl/{season}/washington-commanders-vs-philadelphia-eagles-match-player-stats-{date},washington commanders vs philadelphia eagles match player stats,"Informational, Commercial",450000,30,csv,washington commanders vs philadelphia eagles matchup
+204,3,3,/nfl/{season}/baltimore-ravens-vs-steelers-match-player-stats-{date},baltimore ravens vs steelers match player stats,"Informational, Commercial",135000,31,csv,baltimore ravens vs steelers matchup
+205,3,3,/nfl/{season}/chicago-cubs-vs-cincinnati-reds-match-player-stats-{date},chicago cubs vs cincinnati reds match player stats,Commercial,60500,31,csv,chicago cubs vs cincinnati reds matchup
+206,3,3,/nfl/{season}/colts-vs-new-york-jets-match-player-stats-{date},colts vs new york jets match player stats,"Informational, Commercial",74000,31,csv,colts vs new york jets matchup
+207,3,3,/nfl/{season}/dodgers-vs-colorado-rockies-match-player-stats-{date},dodgers vs colorado rockies match player stats,Commercial,74000,31,csv,dodgers vs colorado rockies matchup
+208,3,3,/nfl/{season}/green-bay-packers-vs-pittsburgh-steelers-match-player-stats-{date},green bay packers vs pittsburgh steelers match player stats,Commercial,110000,31,csv,green bay packers vs pittsburgh steelers matchup
+209,3,3,/nfl/{season}/houston-rockets-vs-dallas-mavericks-match-player-stats-{date},houston rockets vs dallas mavericks match player stats,"Informational, Commercial",90500,31,csv,houston rockets vs dallas mavericks matchup
+210,3,3,/nfl/{season}/las-vegas-aces-vs-phoenix-mercury-match-player-stats-{date},las vegas aces vs phoenix mercury match player stats,Commercial,60500,31,csv,las vegas aces vs phoenix mercury matchup
+211,3,3,/nfl/{season}/milwaukee-brewers-vs-chicago-cubs-match-player-stats-{date},milwaukee brewers vs chicago cubs match player stats,Commercial,90500,31,csv,milwaukee brewers vs chicago cubs matchup
+212,3,3,/nfl/{season}/milwaukee-brewers-vs-new-york-yankees-match-player-stats-{date},milwaukee brewers vs new york yankees match player stats,Commercial,74000,31,csv,milwaukee brewers vs new york yankees matchup
+213,3,3,/nfl/{season}/minnesota-vikings-vs-detroit-lions-match-player-stats-{date},minnesota vikings vs detroit lions match player stats,Commercial,110000,31,csv,minnesota vikings vs detroit lions matchup
+214,3,3,/nfl/{season}/new-england-patriots-vs-new-orleans-saints-match-player-stats-{date},new england patriots vs new orleans saints match player stats,Commercial,60500,31,csv,new england patriots vs new orleans saints matchup
+215,3,3,/nfl/{season}/new-england-patriots-vs-tennessee-titans-match-player-stats-{date},new england patriots vs tennessee titans match player stats,Commercial,74000,31,csv,new england patriots vs tennessee titans matchup
+216,3,3,/nfl/{season}/ohio-state-vs-washington-{date},ohio state vs washington,"Informational, Commercial",74000,31,csv,ohio state vs washington matchup
+217,3,3,/nfl/{season}/philadelphia-eagles-vs-minnesota-vikings-match-player-stats-{date},philadelphia eagles vs minnesota vikings match player stats,Commercial,90500,31,csv,philadelphia eagles vs minnesota vikings matchup
+218,3,3,/nfl/{season}/seahawks-vs-arizona-cardinals-match-player-stats-{date},seahawks vs arizona cardinals match player stats,"Informational, Commercial",165000,31,csv,seahawks vs arizona cardinals matchup
+219,3,3,/nfl/{season}/tampa-bay-buccaneers-vs-chargers-match-player-stats-{date},tampa bay buccaneers vs chargers match player stats,Commercial,60500,31,csv,tampa bay buccaneers vs chargers matchup
+220,3,3,/nfl/{season}/tampa-bay-rays-vs-new-york-yankees-match-player-stats-{date},tampa bay rays vs new york yankees match player stats,Commercial,110000,31,csv,tampa bay rays vs new york yankees matchup
+221,3,3,/nfl/{season}/texans-vs-baltimore-ravens-match-player-stats-{date},texans vs baltimore ravens match player stats,Commercial,90500,31,csv,texans vs baltimore ravens matchup
+222,3,3,/nfl/{season}/washington-wizards-vs-dallas-mavericks-match-player-stats-{date},washington wizards vs dallas mavericks match player stats,Commercial,74000,31,csv,washington wizards vs dallas mavericks matchup
+223,3,3,/nfl/{season}/49ers-vs-texans-match-player-stats-{date},49ers vs texans match player stats,"Informational, Commercial",60500,32,csv,49ers vs texans matchup
+224,3,3,/nfl/{season}/arizona-cardinals-vs-colts-match-player-stats-{date},arizona cardinals vs colts match player stats,Commercial,60500,32,csv,arizona cardinals vs colts matchup
+225,3,3,/nfl/{season}/baltimore-orioles-vs-new-york-yankees-match-player-stats-{date},baltimore orioles vs new york yankees match player stats,Commercial,90500,32,csv,baltimore orioles vs new york yankees matchup
+226,3,3,/nfl/{season}/baltimore-ravens-vs-miami-dolphins-match-player-stats-{date},baltimore ravens vs miami dolphins match player stats,"Informational, Commercial",165000,32,csv,baltimore ravens vs miami dolphins matchup
+227,3,3,/nfl/{season}/cleveland-cavaliers-vs-knicks-match-player-stats-{date},cleveland cavaliers vs knicks match player stats,Commercial,90500,32,csv,cleveland cavaliers vs knicks matchup
+228,3,3,/nfl/{season}/dallas-mavericks-vs-cleveland-cavaliers-match-player-stats-{date},dallas mavericks vs cleveland cavaliers match player stats,Commercial,74000,32,csv,dallas mavericks vs cleveland cavaliers matchup
+229,3,3,/nfl/{season}/denver-broncos-vs-chargers-match-player-stats-{date},denver broncos vs chargers match player stats,Commercial,90500,32,csv,denver broncos vs chargers matchup
+230,3,3,/nfl/{season}/denver-broncos-vs-indianapolis-colts-match-player-stats-{date},denver broncos vs indianapolis colts match player stats,Commercial,90500,32,csv,denver broncos vs indianapolis colts matchup
+231,3,3,/nfl/{season}/denver-nuggets-vs-timberwolves-match-player-stats-{date},denver nuggets vs timberwolves match player stats,Commercial,60500,32,csv,denver nuggets vs timberwolves matchup
+232,3,3,/nfl/{season}/detroit-lions-vs-green-bay-packers-match-player-stats-{date},detroit lions vs green bay packers match player stats,Commercial,165000,32,csv,detroit lions vs green bay packers matchup
+233,3,3,/nfl/{season}/detroit-tigers-vs-cleveland-guardians-match-player-stats-{date},detroit tigers vs cleveland guardians match player stats,Commercial,110000,32,csv,detroit tigers vs cleveland guardians matchup
+234,3,3,/nfl/{season}/lakers-vs-sacramento-kings-match-player-stats-{date},lakers vs sacramento kings match player stats,Commercial,135000,32,csv,lakers vs sacramento kings matchup
+235,3,3,/nfl/{season}/lakers-vs-utah-jazz-match-player-stats-{date},lakers vs utah jazz match player stats,Commercial,165000,32,csv,lakers vs utah jazz matchup
+236,3,3,/nfl/{season}/las-vegas-raiders-vs-washington-commanders-match-player-stats-{date},las vegas raiders vs washington commanders match player stats,Commercial,74000,32,csv,las vegas raiders vs washington commanders matchup
+237,3,3,/nfl/{season}/miami-dolphins-vs-green-bay-packers-match-player-stats-{date},miami dolphins vs green bay packers match player stats,Commercial,90500,32,csv,miami dolphins vs green bay packers matchup
+238,3,3,/nfl/{season}/new-york-jets-vs-miami-dolphins-match-player-stats-{date},new york jets vs miami dolphins match player stats,Commercial,165000,32,csv,new york jets vs miami dolphins matchup
+239,3,3,/nfl/{season}/new-york-yankees-vs-seattle-mariners-match-player-stats-{date},new york yankees vs seattle mariners match player stats,Commercial,60500,32,csv,new york yankees vs seattle mariners matchup
+240,3,3,/nfl/{season}/new-york-yankees-vs-tampa-bay-rays-match-player-stats-{date},new york yankees vs tampa bay rays match player stats,Commercial,74000,32,csv,new york yankees vs tampa bay rays matchup
+241,3,3,/nfl/{season}/ohio-state-vs-oregon-{date},ohio state vs oregon,Informational,165000,32,csv,ohio state vs oregon matchup
+242,3,3,/nfl/{season}/oregon-vs-ohio-state-{date},oregon vs ohio state,"Informational, Commercial",74000,32,csv,oregon vs ohio state matchup
+243,3,3,/nfl/{season}/philadelphia-eagles-vs-new-york-giants-match-player-stats-{date},philadelphia eagles vs new york giants match player stats,Commercial,246000,32,csv,philadelphia eagles vs new york giants matchup
+244,3,3,/nfl/{season}/phoenix-suns-vs-lakers-match-player-stats-{date},phoenix suns vs lakers match player stats,Commercial,74000,32,csv,phoenix suns vs lakers matchup
+245,3,3,/nfl/{season}/seahawks-vs-chicago-bears-match-player-stats-{date},seahawks vs chicago bears match player stats,Commercial,74000,32,csv,seahawks vs chicago bears matchup
+246,3,3,/nfl/{season}/steelers-vs-philadelphia-eagles-match-player-stats-{date},steelers vs philadelphia eagles match player stats,"Informational, Commercial",60500,32,csv,steelers vs philadelphia eagles matchup
+247,3,3,/nfl/{season}/timberwolves-vs-denver-nuggets-match-player-stats-{date},timberwolves vs denver nuggets match player stats,Commercial,74000,32,csv,timberwolves vs denver nuggets matchup
+248,3,3,/nfl/{season}/washington-commanders-vs-tampa-bay-buccaneers-match-player-stats-{date},washington commanders vs tampa bay buccaneers match player stats,Commercial,135000,32,csv,washington commanders vs tampa bay buccaneers matchup
+249,3,3,/nfl/{season}/arizona-cardinals-vs-seahawks-match-player-stats-{date},arizona cardinals vs seahawks match player stats,Commercial,60500,33,csv,arizona cardinals vs seahawks matchup
+250,3,3,/nfl/{season}/atlanta-braves-vs-phillies-match-player-stats-{date},atlanta braves vs phillies match player stats,"Informational, Commercial",74000,33,csv,atlanta braves vs phillies matchup
+251,3,3,/nfl/{season}/atlanta-falcons-vs-49ers-match-player-stats-{date},atlanta falcons vs 49ers match player stats,Commercial,90500,33,csv,atlanta falcons vs 49ers matchup
+252,3,3,/nfl/{season}/atlanta-hawks-vs-orlando-magic-match-player-stats-{date},atlanta hawks vs orlando magic match player stats,Commercial,74000,33,csv,atlanta hawks vs orlando magic matchup
+253,3,3,/nfl/{season}/carolina-panthers-vs-jacksonville-jaguars-match-player-stats-{date},carolina panthers vs jacksonville jaguars match player stats,Commercial,110000,33,csv,carolina panthers vs jacksonville jaguars matchup
+254,3,3,/nfl/{season}/dallas-cowboys-vs-chicago-bears-match-player-stats-{date},dallas cowboys vs chicago bears match player stats,"Informational, Commercial",90500,33,csv,dallas cowboys vs chicago bears matchup
+255,3,3,/nfl/{season}/detroit-lions-vs-bengals-match-player-stats-{date},detroit lions vs bengals match player stats,"Informational, Commercial",74000,33,csv,detroit lions vs bengals matchup
+256,3,3,/nfl/{season}/golden-state-valkyries-vs-new-york-liberty-timeline-{date},golden state valkyries vs new york liberty timeline,Commercial,301000,33,csv,golden state valkyries vs new york liberty timeline matchup
+257,3,3,/nfl/{season}/la-clippers-vs-utah-jazz-match-player-stats-{date},la clippers vs utah jazz match player stats,Commercial,90500,33,csv,la clippers vs utah jazz matchup
+258,3,3,/nfl/{season}/milwaukee-bucks-vs-toronto-raptors-match-player-stats-{date},milwaukee bucks vs toronto raptors match player stats,Commercial,60500,33,csv,milwaukee bucks vs toronto raptors matchup
+259,3,3,/nfl/{season}/minnesota-vikings-vs-tennessee-titans-match-player-stats-{date},minnesota vikings vs tennessee titans match player stats,Commercial,60500,33,csv,minnesota vikings vs tennessee titans matchup
+260,3,3,/nfl/{season}/nc-secretary-of-state-{date},nc secretary of state,Informational,60500,33,csv,Matchup stats
+261,3,3,/nfl/{season}/new-england-patriots-vs-buffalo-bills-match-player-stats-{date},new england patriots vs buffalo bills match player stats,"Informational, Commercial",165000,33,csv,new england patriots vs buffalo bills matchup
+262,3,3,/nfl/{season}/new-orleans-saints-vs-tampa-bay-buccaneers-match-player-stats-{date},new orleans saints vs tampa bay buccaneers match player stats,"Informational, Commercial",90500,33,csv,new orleans saints vs tampa bay buccaneers matchup
+263,3,3,/nfl/{season}/new-york-liberty-vs-golden-state-valkyries-timeline-{date},new york liberty vs golden state valkyries timeline,Commercial,60500,33,csv,new york liberty vs golden state valkyries timeline matchup
+264,3,3,/nfl/{season}/new-york-yankees-vs-dodgers-match-player-stats-{date},new york yankees vs dodgers match player stats,Commercial,90500,33,csv,new york yankees vs dodgers matchup
+265,3,3,/nfl/{season}/pacers-vs-knicks-match-player-stats-{date},pacers vs knicks match player stats,Commercial,135000,33,csv,pacers vs knicks matchup
+266,3,3,/nfl/{season}/philadelphia-eagles-vs-baltimore-ravens-match-player-stats-{date},philadelphia eagles vs baltimore ravens match player stats,Commercial,90500,33,csv,philadelphia eagles vs baltimore ravens matchup
+267,3,3,/nfl/{season}/philadelphia-eagles-vs-los-angeles-rams-match-player-stats-{date},philadelphia eagles vs los angeles rams match player stats,Commercial,165000,33,csv,philadelphia eagles vs los angeles rams matchup
+268,3,3,/nfl/{season}/tampa-bay-buccaneers-vs-detroit-lions-match-player-stats-{date},tampa bay buccaneers vs detroit lions match player stats,Commercial,135000,33,csv,tampa bay buccaneers vs detroit lions matchup
+269,3,3,/nfl/{season}/texans-vs-seahawks-match-player-stats-{date},texans vs seahawks match player stats,Commercial,135000,33,csv,texans vs seahawks matchup
+270,3,3,/nfl/{season}/washington-commanders-vs-kansas-city-chiefs-match-player-stats-{date},washington commanders vs kansas city chiefs match player stats,Commercial,135000,33,csv,washington commanders vs kansas city chiefs matchup
+271,3,3,/nfl/{season}/49ers-vs-seahawks-match-player-stats-{date},49ers vs seahawks match player stats,Commercial,74000,34,csv,49ers vs seahawks matchup
+272,3,3,/nfl/{season}/baltimore-ravens-vs-chargers-match-player-stats-{date},baltimore ravens vs chargers match player stats,Commercial,110000,34,csv,baltimore ravens vs chargers matchup
+273,3,3,/nfl/{season}/buffalo-bills-vs-atlanta-falcons-match-player-stats-{date},buffalo bills vs atlanta falcons match player stats,Commercial,368000,34,csv,buffalo bills vs atlanta falcons matchup
+274,3,3,/nfl/{season}/carolina-panthers-vs-tampa-bay-buccaneers-match-player-stats-{date},carolina panthers vs tampa bay buccaneers match player stats,Commercial,60500,34,csv,carolina panthers vs tampa bay buccaneers matchup
+275,3,3,/nfl/{season}/chargers-vs-kansas-city-chiefs-match-player-stats-{date},chargers vs kansas city chiefs match player stats,Commercial,74000,34,csv,chargers vs kansas city chiefs matchup
+276,3,3,/nfl/{season}/chargers-vs-new-england-patriots-match-player-stats-{date},chargers vs new england patriots match player stats,Commercial,74000,34,csv,chargers vs new england patriots matchup
+277,3,3,/nfl/{season}/cleveland-browns-vs-pittsburgh-steelers-match-player-stats-{date},cleveland browns vs pittsburgh steelers match player stats,Commercial,135000,34,csv,cleveland browns vs pittsburgh steelers matchup
+278,3,3,/nfl/{season}/dallas-cowboys-vs-denver-broncos-match-player-stats-{date},dallas cowboys vs denver broncos match player stats,Commercial,90500,34,csv,dallas cowboys vs denver broncos matchup
+279,3,3,/nfl/{season}/dallas-mavericks-vs-memphis-grizzlies-match-player-stats-{date},dallas mavericks vs memphis grizzlies match player stats,Commercial,74000,34,csv,dallas mavericks vs memphis grizzlies matchup
+280,3,3,/nfl/{season}/detroit-lions-vs-houston-texans-match-player-stats-{date},detroit lions vs houston texans match player stats,Commercial,110000,34,csv,detroit lions vs houston texans matchup
+281,3,3,/nfl/{season}/indianapolis-colts-vs-los-angeles-rams-match-player-stats-{date},indianapolis colts vs los angeles rams match player stats,"Informational, Commercial",60500,34,csv,indianapolis colts vs los angeles rams matchup
+282,3,3,/nfl/{season}/jacksonville-jaguars-vs-49ers-match-player-stats-{date},jacksonville jaguars vs 49ers match player stats,Commercial,74000,34,csv,jacksonville jaguars vs 49ers matchup
+283,3,3,/nfl/{season}/memphis-grizzlies-vs-lakers-match-player-stats-{date},memphis grizzlies vs lakers match player stats,Commercial,90500,34,csv,memphis grizzlies vs lakers matchup
+284,3,3,/nfl/{season}/new-york-giants-vs-denver-broncos-match-player-stats-{date},new york giants vs denver broncos match player stats,Commercial,90500,34,csv,new york giants vs denver broncos matchup
+285,3,3,/nfl/{season}/new-york-yankees-vs-baltimore-orioles-match-player-stats-{date},new york yankees vs baltimore orioles match player stats,Commercial,90500,34,csv,new york yankees vs baltimore orioles matchup
+286,3,3,/nfl/{season}/new-york-yankees-vs-cleveland-guardians-match-player-stats-{date},new york yankees vs cleveland guardians match player stats,"Informational, Commercial",60500,34,csv,new york yankees vs cleveland guardians matchup
+287,3,3,/nfl/{season}/new-york-yankees-vs-los-angeles-angels-match-player-stats-{date},new york yankees vs los angeles angels match player stats,Commercial,60500,34,csv,new york yankees vs los angeles angels matchup
+288,3,3,/nfl/{season}/okc-thunder-vs-timberwolves-match-player-stats-{date},okc thunder vs timberwolves match player stats,Commercial,60500,34,csv,okc thunder vs timberwolves matchup
+289,3,3,/nfl/{season}/penn-state-acceptance-rate-{date},penn state acceptance rate,Informational,60500,34,csv,Matchup stats
+290,3,3,/nfl/{season}/steelers-vs-bengals-match-player-stats-{date},steelers vs bengals match player stats,Commercial,90500,34,csv,steelers vs bengals matchup
+291,3,3,/nfl/{season}/washington-wizards-vs-milwaukee-bucks-match-player-stats-{date},washington wizards vs milwaukee bucks match player stats,Commercial,60500,34,csv,washington wizards vs milwaukee bucks matchup
+292,3,3,/nfl/{season}/76ers-vs-knicks-match-player-stats-{date},76ers vs knicks match player stats,Commercial,74000,35,csv,76ers vs knicks matchup
+293,3,3,/nfl/{season}/buffalo-bills-vs-carolina-panthers-match-player-stats-{date},buffalo bills vs carolina panthers match player stats,Commercial,90500,35,csv,buffalo bills vs carolina panthers matchup
+294,3,3,/nfl/{season}/buffalo-bills-vs-kansas-city-chiefs-match-player-stats-{date},buffalo bills vs kansas city chiefs match player stats,Commercial,201000,35,csv,buffalo bills vs kansas city chiefs matchup
+295,3,3,/nfl/{season}/chicago-bears-vs-washington-commanders-match-player-stats-{date},chicago bears vs washington commanders match player stats,"Informational, Commercial",165000,35,csv,chicago bears vs washington commanders matchup
+296,3,3,/nfl/{season}/denver-broncos-vs-new-york-jets-match-player-stats-{date},denver broncos vs new york jets match player stats,Commercial,110000,35,csv,denver broncos vs new york jets matchup
+297,3,3,/nfl/{season}/detroit-lions-vs-kansas-city-chiefs-match-player-stats-{date},detroit lions vs kansas city chiefs match player stats,Commercial,201000,35,csv,detroit lions vs kansas city chiefs matchup
+298,3,3,/nfl/{season}/golden-state-warriors-vs-phoenix-suns-match-player-stats-{date},golden state warriors vs phoenix suns match player stats,Commercial,60500,35,csv,golden state warriors vs phoenix suns matchup
+299,3,3,/nfl/{season}/indiana-fever-vs-connecticut-sun-match-player-stats-{date},indiana fever vs connecticut sun match player stats,Commercial,60500,35,csv,indiana fever vs connecticut sun matchup
+300,3,3,/nfl/{season}/indianapolis-colts-vs-tennessee-titans-match-player-stats-{date},indianapolis colts vs tennessee titans match player stats,Commercial,74000,35,csv,indianapolis colts vs tennessee titans matchup
+301,3,3,/nfl/{season}/new-orleans-saints-vs-green-bay-packers-match-player-stats-{date},new orleans saints vs green bay packers match player stats,"Informational, Commercial",90500,35,csv,new orleans saints vs green bay packers matchup
+302,3,3,/nfl/{season}/new-york-jets-vs-buffalo-bills-match-player-stats-{date},new york jets vs buffalo bills match player stats,Commercial,74000,35,csv,new york jets vs buffalo bills matchup
+303,3,3,/nfl/{season}/ohio-vs-ohio-state-{date},ohio vs ohio state,Commercial,60500,35,csv,ohio vs ohio state matchup
+304,3,3,/nfl/{season}/padres-vs-chicago-cubs-match-player-stats-{date},padres vs chicago cubs match player stats,Commercial,74000,35,csv,padres vs chicago cubs matchup
+305,3,3,/nfl/{season}/penn-state-vs-boise-state-{date},penn state vs boise state,Informational,74000,35,csv,penn state vs boise state matchup
+306,3,3,/nfl/{season}/phoenix-mercury-vs-las-vegas-aces-match-player-stats-{date},phoenix mercury vs las vegas aces match player stats,Commercial,74000,35,csv,phoenix mercury vs las vegas aces matchup
+307,3,3,/nfl/{season}/pittsburgh-steelers-vs-new-york-jets-match-player-stats-{date},pittsburgh steelers vs new york jets match player stats,Commercial,110000,35,csv,pittsburgh steelers vs new york jets matchup
+308,3,3,/nfl/{season}/san-antonio-spurs-vs-lakers-match-player-stats-{date},san antonio spurs vs lakers match player stats,Commercial,74000,35,csv,san antonio spurs vs lakers matchup
+309,3,3,/nfl/{season}/steelers-vs-baltimore-ravens-match-player-stats-{date},steelers vs baltimore ravens match player stats,"Informational, Commercial",301000,35,csv,steelers vs baltimore ravens matchup
+310,3,3,/nfl/{season}/timberwolves-vs-oklahoma-city-thunder-match-player-stats-{date},timberwolves vs oklahoma city thunder match player stats,Commercial,110000,35,csv,timberwolves vs oklahoma city thunder matchup
+311,3,3,/nfl/{season}/washington-commanders-vs-detroit-lions-match-player-stats-{date},washington commanders vs detroit lions match player stats,Commercial,201000,35,csv,washington commanders vs detroit lions matchup
+312,3,3,/nfl/{season}/49ers-vs-green-bay-packers-match-player-stats-{date},49ers vs green bay packers match player stats,Commercial,60500,36,csv,49ers vs green bay packers matchup
+313,3,3,/nfl/{season}/atlanta-falcons-vs-minnesota-vikings-match-player-stats-{date},atlanta falcons vs minnesota vikings match player stats,"Informational, Commercial",165000,36,csv,atlanta falcons vs minnesota vikings matchup
+314,3,3,/nfl/{season}/bengals-vs-dallas-cowboys-match-player-stats-{date},bengals vs dallas cowboys match player stats,Commercial,110000,36,csv,bengals vs dallas cowboys matchup
+315,3,3,/nfl/{season}/chelsea-fc-vs-psg-stats-{date},chelsea f.c. vs psg stats,Commercial,74000,36,csv,chelsea f.c. vs psg stats matchup
+316,3,3,/nfl/{season}/dallas-cowboys-vs-carolina-panthers-match-player-stats-{date},dallas cowboys vs carolina panthers match player stats,Commercial,110000,36,csv,dallas cowboys vs carolina panthers matchup
+317,3,3,/nfl/{season}/dallas-cowboys-vs-new-york-jets-match-player-stats-{date},dallas cowboys vs new york jets match player stats,"Informational, Commercial",74000,36,csv,dallas cowboys vs new york jets matchup
+318,3,3,/nfl/{season}/denver-broncos-vs-kansas-city-chiefs-match-player-stats-{date},denver broncos vs kansas city chiefs match player stats,Commercial,74000,36,csv,denver broncos vs kansas city chiefs matchup
+319,3,3,/nfl/{season}/golden-state-warriors-vs-orlando-magic-match-player-stats-{date},golden state warriors vs orlando magic match player stats,"Informational, Commercial",60500,36,csv,golden state warriors vs orlando magic matchup
+320,3,3,/nfl/{season}/golden-state-warriors-vs-timberwolves-match-player-stats-{date},golden state warriors vs timberwolves match player stats,Commercial,301000,36,csv,golden state warriors vs timberwolves matchup
+321,3,3,/nfl/{season}/kansas-city-chiefs-vs-jacksonville-jaguars-match-player-stats-{date},kansas city chiefs vs jacksonville jaguars match player stats,Commercial,135000,36,csv,kansas city chiefs vs jacksonville jaguars matchup
+322,3,3,/nfl/{season}/lakers-vs-memphis-grizzlies-match-player-stats-{date},lakers vs memphis grizzlies match player stats,Commercial,135000,36,csv,lakers vs memphis grizzlies matchup
+323,3,3,/nfl/{season}/memphis-grizzlies-vs-okc-thunder-match-player-stats-{date},memphis grizzlies vs okc thunder match player stats,Commercial,110000,36,csv,memphis grizzlies vs okc thunder matchup
+324,3,3,/nfl/{season}/new-england-patriots-vs-miami-dolphins-match-player-stats-{date},new england patriots vs miami dolphins match player stats,Commercial,135000,36,csv,new england patriots vs miami dolphins matchup
+325,3,3,/nfl/{season}/new-york-giants-vs-new-orleans-saints-match-player-stats-{date},new york giants vs new orleans saints match player stats,Commercial,60500,36,csv,new york giants vs new orleans saints matchup
+326,3,3,/nfl/{season}/new-york-giants-vs-philadelphia-eagles-match-player-stats-{date},new york giants vs philadelphia eagles match player stats,Commercial,201000,36,csv,new york giants vs philadelphia eagles matchup
+327,3,3,/nfl/{season}/new-york-liberty-vs-indiana-fever-match-player-stats-{date},new york liberty vs indiana fever match player stats,Commercial,74000,36,csv,new york liberty vs indiana fever matchup
+328,3,3,/nfl/{season}/seattle-mariners-vs-detroit-tigers-match-player-stats-{date},seattle mariners vs detroit tigers match player stats,Commercial,74000,36,csv,seattle mariners vs detroit tigers matchup
+329,3,3,/nfl/{season}/tennessee-titans-vs-colts-match-player-stats-{date},tennessee titans vs colts match player stats,Commercial,74000,36,csv,tennessee titans vs colts matchup
+330,3,3,/nfl/{season}/toronto-blue-jays-vs-seattle-mariners-match-player-stats-{date},toronto blue jays vs seattle mariners match player stats,Commercial,90500,36,csv,toronto blue jays vs seattle mariners matchup
+331,3,3,/nfl/{season}/49ers-vs-miami-dolphins-match-player-stats-{date},49ers vs miami dolphins match player stats,Commercial,60500,37,csv,49ers vs miami dolphins matchup
+332,3,3,/nfl/{season}/baltimore-ravens-vs-texans-match-player-stats-{date},baltimore ravens vs texans match player stats,Commercial,110000,37,csv,baltimore ravens vs texans matchup
+333,3,3,/nfl/{season}/bengals-vs-chargers-match-player-stats-{date},bengals vs chargers match player stats,Commercial,90500,37,csv,bengals vs chargers matchup
+334,3,3,/nfl/{season}/bengals-vs-cleveland-browns-match-player-stats-{date},bengals vs cleveland browns match player stats,Commercial,110000,37,csv,bengals vs cleveland browns matchup
+335,3,3,/nfl/{season}/bengals-vs-minnesota-vikings-match-player-stats-{date},bengals vs minnesota vikings match player stats,Commercial,110000,37,csv,bengals vs minnesota vikings matchup
+336,3,3,/nfl/{season}/chicago-bears-vs-minnesota-vikings-match-player-stats-{date},chicago bears vs minnesota vikings match player stats,Commercial,135000,37,csv,chicago bears vs minnesota vikings matchup
+337,3,3,/nfl/{season}/cleveland-browns-vs-carolina-panthers-match-player-stats-{date},cleveland browns vs carolina panthers match player stats,Commercial,90500,37,csv,cleveland browns vs carolina panthers matchup
+338,3,3,/nfl/{season}/dallas-cowboys-vs-philadelphia-eagles-match-player-stats-{date},dallas cowboys vs philadelphia eagles match player stats,Commercial,368000,37,csv,dallas cowboys vs philadelphia eagles matchup
+339,3,3,/nfl/{season}/dodgers-vs-san-francisco-giants-match-player-stats-{date},dodgers vs san francisco giants match player stats,Commercial,60500,37,csv,dodgers vs san francisco giants matchup
+340,3,3,/nfl/{season}/green-bay-packers-vs-minnesota-vikings-match-player-stats-{date},green bay packers vs minnesota vikings match player stats,Commercial,74000,37,csv,green bay packers vs minnesota vikings matchup
+341,3,3,/nfl/{season}/houston-rockets-vs-lakers-match-player-stats-{date},houston rockets vs lakers match player stats,Commercial,90500,37,csv,houston rockets vs lakers matchup
+342,3,3,/nfl/{season}/los-angeles-chargers-vs-las-vegas-raiders-match-player-stats-{date},los angeles chargers vs las vegas raiders match player stats,Commercial,110000,37,csv,los angeles chargers vs las vegas raiders matchup
+343,3,3,/nfl/{season}/los-angeles-rams-vs-jacksonville-jaguars-match-player-stats-{date},los angeles rams vs jacksonville jaguars match player stats,Commercial,90500,37,csv,los angeles rams vs jacksonville jaguars matchup
+344,3,3,/nfl/{season}/miami-dolphins-vs-cleveland-browns-match-player-stats-{date},miami dolphins vs cleveland browns match player stats,Commercial,135000,37,csv,miami dolphins vs cleveland browns matchup
+345,3,3,/nfl/{season}/milwaukee-bucks-vs-okc-thunder-match-player-stats-{date},milwaukee bucks vs okc thunder match player stats,Commercial,110000,37,csv,milwaukee bucks vs okc thunder matchup
+346,3,3,/nfl/{season}/ocean-state-job-lot-{date},ocean state job lot,Navigational,246000,37,csv,Matchup stats
+347,3,3,/nfl/{season}/okc-thunder-vs-golden-state-warriors-match-player-stats-{date},okc thunder vs golden state warriors match player stats,Commercial,60500,37,csv,okc thunder vs golden state warriors matchup
+348,3,3,/nfl/{season}/pacers-vs-cleveland-cavaliers-match-player-stats-{date},pacers vs cleveland cavaliers match player stats,"Informational, Commercial",201000,37,csv,pacers vs cleveland cavaliers matchup
+349,3,3,/nfl/{season}/pacers-vs-oklahoma-city-thunder-match-player-stats-{date},pacers vs oklahoma city thunder match player stats,Commercial,246000,37,csv,pacers vs oklahoma city thunder matchup
+350,3,3,/nfl/{season}/sacramento-kings-vs-new-orleans-pelicans-match-player-stats-{date},sacramento kings vs new orleans pelicans match player stats,Commercial,60500,37,csv,sacramento kings vs new orleans pelicans matchup
+351,3,3,/nfl/{season}/san-francisco-giants-vs-dodgers-match-player-stats-{date},san francisco giants vs dodgers match player stats,Commercial,60500,37,csv,san francisco giants vs dodgers matchup
+352,3,3,/nfl/{season}/arizona-cardinals-vs-49ers-match-player-stats-{date},arizona cardinals vs 49ers match player stats,Commercial,60500,38,csv,arizona cardinals vs 49ers matchup
+353,3,3,/nfl/{season}/atlanta-falcons-vs-las-vegas-raiders-match-player-stats-{date},atlanta falcons vs las vegas raiders match player stats,Commercial,60500,38,csv,atlanta falcons vs las vegas raiders matchup
+354,3,3,/nfl/{season}/bengals-vs-pittsburgh-steelers-match-player-stats-{date},bengals vs pittsburgh steelers match player stats,Commercial,135000,38,csv,bengals vs pittsburgh steelers matchup
+355,3,3,/nfl/{season}/boston-celtics-vs-orlando-magic-match-player-stats-{date},boston celtics vs orlando magic match player stats,Commercial,165000,38,csv,boston celtics vs orlando magic matchup
+356,3,3,/nfl/{season}/cal-raleigh-stats-{date},cal raleigh stats,Informational,74000,38,csv,Matchup stats
+357,3,3,/nfl/{season}/chicago-bears-vs-49ers-match-player-stats-{date},chicago bears vs 49ers match player stats,Commercial,60500,38,csv,chicago bears vs 49ers matchup
+358,3,3,/nfl/{season}/chicago-cubs-vs-milwaukee-brewers-match-player-stats-{date},chicago cubs vs milwaukee brewers match player stats,Commercial,110000,38,csv,chicago cubs vs milwaukee brewers matchup
+359,3,3,/nfl/{season}/cleveland-browns-vs-baltimore-ravens-match-player-stats-{date},cleveland browns vs baltimore ravens match player stats,Commercial,201000,38,csv,cleveland browns vs baltimore ravens matchup
+360,3,3,/nfl/{season}/cleveland-cavaliers-vs-boston-celtics-match-player-stats-{date},cleveland cavaliers vs boston celtics match player stats,Commercial,74000,38,csv,cleveland cavaliers vs boston celtics matchup
+361,3,3,/nfl/{season}/golden-state-warriors-vs-milwaukee-bucks-match-player-stats-{date},golden state warriors vs milwaukee bucks match player stats,Commercial,90500,38,csv,golden state warriors vs milwaukee bucks matchup
+362,3,3,/nfl/{season}/grambling-st-vs-ohio-state-{date},grambling st vs ohio state,Informational,74000,38,csv,grambling st vs ohio state matchup
+363,3,3,/nfl/{season}/houston-texans-vs-los-angeles-rams-match-player-stats-{date},houston texans vs los angeles rams match player stats,Commercial,74000,38,csv,houston texans vs los angeles rams matchup
+364,3,3,/nfl/{season}/kansas-city-chiefs-vs-new-york-giants-match-player-stats-{date},kansas city chiefs vs new york giants match player stats,Commercial,74000,38,csv,kansas city chiefs vs new york giants matchup
+365,3,3,/nfl/{season}/la-clippers-vs-phoenix-suns-match-player-stats-{date},la clippers vs phoenix suns match player stats,Commercial,60500,38,csv,la clippers vs phoenix suns matchup
+366,3,3,/nfl/{season}/phillies-vs-mets-match-player-stats-{date},phillies vs mets match player stats,Commercial,60500,38,csv,phillies vs mets matchup
+367,3,3,/nfl/{season}/phoenix-suns-vs-denver-nuggets-match-player-stats-{date},phoenix suns vs denver nuggets match player stats,Commercial,90500,38,csv,phoenix suns vs denver nuggets matchup
+368,3,3,/nfl/{season}/smu-vs-penn-state-{date},smu vs penn state,"Informational, Transactional",60500,38,csv,smu vs penn state matchup
+369,3,3,/nfl/{season}/tampa-bay-buccaneers-vs-houston-texans-match-player-stats-{date},tampa bay buccaneers vs houston texans match player stats,Commercial,90500,38,csv,tampa bay buccaneers vs houston texans matchup
+370,3,3,/nfl/{season}/tennessee-vs-ohio-state-{date},tennessee vs ohio state,"Informational, Commercial",110000,38,csv,tennessee vs ohio state matchup
+371,3,3,/nfl/{season}/atlanta-braves-vs-mets-match-player-stats-{date},atlanta braves vs mets match player stats,Commercial,74000,39,csv,atlanta braves vs mets matchup
+372,3,3,/nfl/{season}/atlanta-dream-vs-indiana-fever-match-player-stats-{date},atlanta dream vs indiana fever match player stats,Commercial,90500,39,csv,atlanta dream vs indiana fever matchup
+373,3,3,/nfl/{season}/cincinnati-reds-vs-baltimore-orioles-match-player-stats-{date},cincinnati reds vs baltimore orioles match player stats,Commercial,60500,39,csv,cincinnati reds vs baltimore orioles matchup
+374,3,3,/nfl/{season}/dallas-cowboys-vs-atlanta-falcons-match-player-stats-{date},dallas cowboys vs atlanta falcons match player stats,Commercial,60500,39,csv,dallas cowboys vs atlanta falcons matchup
+375,3,3,/nfl/{season}/golden-state-warriors-vs-houston-rockets-timeline-{date},golden state warriors vs houston rockets timeline,Commercial,60500,39,csv,golden state warriors vs houston rockets timeline matchup
+376,3,3,/nfl/{season}/kansas-city-chiefs-vs-carolina-panthers-match-player-stats-{date},kansas city chiefs vs carolina panthers match player stats,Commercial,74000,39,csv,kansas city chiefs vs carolina panthers matchup
+377,3,3,/nfl/{season}/kansas-city-chiefs-vs-denver-broncos-match-player-stats-{date},kansas city chiefs vs denver broncos match player stats,"Informational, Commercial",60500,39,csv,kansas city chiefs vs denver broncos matchup
+378,3,3,/nfl/{season}/lakers-vs-brooklyn-nets-match-player-stats-{date},lakers vs brooklyn nets match player stats,Commercial,74000,39,csv,lakers vs brooklyn nets matchup
+379,3,3,/nfl/{season}/lakers-vs-portland-trail-blazers-match-player-stats-{date},lakers vs portland trail blazers match player stats,Commercial,110000,39,csv,lakers vs portland trail blazers matchup
+380,3,3,/nfl/{season}/miami-dolphins-vs-indianapolis-colts-match-player-stats-{date},miami dolphins vs indianapolis colts match player stats,Commercial,110000,39,csv,miami dolphins vs indianapolis colts matchup
+381,3,3,/nfl/{season}/minnesota-vikings-vs-chargers-match-player-stats-{date},minnesota vikings vs chargers match player stats,Commercial,135000,39,csv,minnesota vikings vs chargers matchup
+382,3,3,/nfl/{season}/new-york-jets-vs-bengals-match-player-stats-{date},new york jets vs bengals match player stats,Commercial,135000,39,csv,new york jets vs bengals matchup
+383,3,3,/nfl/{season}/oklahoma-city-thunder-vs-pacers-match-player-stats-{date},oklahoma city thunder vs pacers match player stats,Commercial,165000,39,csv,oklahoma city thunder vs pacers matchup
+384,3,3,/nfl/{season}/penn-state-score-{date},penn state score,Informational,110000,39,csv,Matchup stats
+385,3,3,/nfl/{season}/penn-state-vs-iowa-{date},penn state vs iowa,Informational,60500,39,csv,penn state vs iowa matchup
+386,3,3,/nfl/{season}/philadelphia-eagles-vs-dallas-cowboys-match-player-stats-{date},philadelphia eagles vs dallas cowboys match player stats,Commercial,165000,39,csv,philadelphia eagles vs dallas cowboys matchup
+387,3,3,/nfl/{season}/pittsburgh-steelers-vs-bengals-match-player-stats-{date},pittsburgh steelers vs bengals match player stats,Commercial,301000,39,csv,pittsburgh steelers vs bengals matchup
+388,3,3,/nfl/{season}/sacramento-kings-vs-golden-state-warriors-match-player-stats-{date},sacramento kings vs golden state warriors match player stats,Commercial,60500,39,csv,sacramento kings vs golden state warriors matchup
+389,3,3,/nfl/{season}/seattle-mariners-vs-toronto-blue-jays-match-player-stats-{date},seattle mariners vs toronto blue jays match player stats,Commercial,246000,39,csv,seattle mariners vs toronto blue jays matchup
+390,3,3,/nfl/{season}/tennessee-titans-vs-texans-match-player-stats-{date},tennessee titans vs texans match player stats,Commercial,90500,39,csv,tennessee titans vs texans matchup
+391,3,3,/nfl/{season}/texans-vs-kansas-city-chiefs-match-player-stats-{date},texans vs kansas city chiefs match player stats,Commercial,246000,39,csv,texans vs kansas city chiefs matchup
+392,3,3,/nfl/{season}/texas-rangers-vs-new-york-yankees-match-player-stats-{date},texas rangers vs new york yankees match player stats,"Informational, Commercial",60500,39,csv,texas rangers vs new york yankees matchup
+393,3,3,/nfl/{season}/49ers-vs-buffalo-bills-match-player-stats-{date},49ers vs buffalo bills match player stats,Commercial,90500,40,csv,49ers vs buffalo bills matchup
+394,3,3,/nfl/{season}/49ers-vs-tampa-bay-buccaneers-match-player-stats-{date},49ers vs tampa bay buccaneers match player stats,Commercial,165000,40,csv,49ers vs tampa bay buccaneers matchup
+395,3,3,/nfl/{season}/alabama-vs-florida-state-{date},alabama vs florida state,Informational,90500,40,csv,alabama vs florida state matchup
+396,3,3,/nfl/{season}/arizona-cardinals-vs-carolina-panthers-match-player-stats-{date},arizona cardinals vs carolina panthers match player stats,Commercial,60500,40,csv,arizona cardinals vs carolina panthers matchup
+397,3,3,/nfl/{season}/baltimore-ravens-vs-kansas-city-chiefs-match-player-stats-{date},baltimore ravens vs kansas city chiefs match player stats,Commercial,90500,40,csv,baltimore ravens vs kansas city chiefs matchup
+398,3,3,/nfl/{season}/chicago-bears-vs-detroit-lions-match-player-stats-{date},chicago bears vs detroit lions match player stats,Commercial,246000,40,csv,chicago bears vs detroit lions matchup
+399,3,3,/nfl/{season}/colts-vs-chargers-match-player-stats-{date},colts vs chargers match player stats,Commercial,165000,40,csv,colts vs chargers matchup
+400,3,3,/nfl/{season}/dallas-mavericks-vs-okc-thunder-match-player-stats-{date},dallas mavericks vs okc thunder match player stats,Commercial,60500,40,csv,dallas mavericks vs okc thunder matchup
+401,3,3,/nfl/{season}/dodgers-vs-milwaukee-brewers-match-player-stats-{date},dodgers vs milwaukee brewers match player stats,Commercial,110000,40,csv,dodgers vs milwaukee brewers matchup
+402,3,3,/nfl/{season}/golden-state-warriors-vs-chicago-bulls-match-player-stats-{date},golden state warriors vs chicago bulls match player stats,Commercial,74000,40,csv,golden state warriors vs chicago bulls matchup
+403,3,3,/nfl/{season}/golden-state-warriors-vs-portland-trail-blazers-match-player-stats-{date},golden state warriors vs portland trail blazers match player stats,Commercial,60500,40,csv,golden state warriors vs portland trail blazers matchup
+404,3,3,/nfl/{season}/green-bay-packers-vs-seahawks-match-player-stats-{date},green bay packers vs seahawks match player stats,Commercial,74000,40,csv,green bay packers vs seahawks matchup
+405,3,3,/nfl/{season}/houston-rockets-vs-oklahoma-city-thunder-match-player-stats-{date},houston rockets vs oklahoma city thunder match player stats,Commercial,201000,40,csv,houston rockets vs oklahoma city thunder matchup
+406,3,3,/nfl/{season}/indiana-fever-vs-chicago-sky-match-player-stats-{date},indiana fever vs chicago sky match player stats,Commercial,74000,40,csv,indiana fever vs chicago sky matchup
+407,3,3,/nfl/{season}/kansas-city-chiefs-vs-buffalo-bills-match-player-stats-{date},kansas city chiefs vs buffalo bills match player stats,Commercial,135000,40,csv,kansas city chiefs vs buffalo bills matchup
+408,3,3,/nfl/{season}/kansas-city-chiefs-vs-los-angeles-chargers-match-player-stats-{date},kansas city chiefs vs los angeles chargers match player stats,Commercial,135000,40,csv,kansas city chiefs vs los angeles chargers matchup
+409,3,3,/nfl/{season}/knicks-vs-milwaukee-bucks-match-player-stats-{date},knicks vs milwaukee bucks match player stats,Commercial,60500,40,csv,knicks vs milwaukee bucks matchup
+410,3,3,/nfl/{season}/knicks-vs-pacers-match-player-stats-{date},knicks vs pacers match player stats,Commercial,201000,40,csv,knicks vs pacers matchup
+411,3,3,/nfl/{season}/la-clippers-vs-golden-state-warriors-match-player-stats-{date},la clippers vs golden state warriors match player stats,Commercial,110000,40,csv,la clippers vs golden state warriors matchup
+412,3,3,/nfl/{season}/new-orleans-saints-vs-buffalo-bills-match-player-stats-{date},new orleans saints vs buffalo bills match player stats,Commercial,60500,40,csv,new orleans saints vs buffalo bills matchup
+413,3,3,/nfl/{season}/new-york-yankees-vs-red-sox-match-player-stats-{date},new york yankees vs red sox match player stats,Commercial,74000,40,csv,new york yankees vs red sox matchup
+414,3,3,/nfl/{season}/ohio-state-vs-penn-state-{date},ohio state vs penn state,Informational,74000,40,csv,ohio state vs penn state matchup
+415,3,3,/nfl/{season}/ohio-state-vs-tennessee-{date},ohio state vs tennessee,Informational,74000,40,csv,ohio state vs tennessee matchup
+416,3,3,/nfl/{season}/ohio-state-vs-wisconsin-{date},ohio state vs wisconsin,Informational,74000,40,csv,ohio state vs wisconsin matchup
+417,3,3,/nfl/{season}/okc-thunder-vs-denver-nuggets-match-player-stats-{date},okc thunder vs denver nuggets match player stats,Commercial,165000,40,csv,okc thunder vs denver nuggets matchup
+418,3,3,/nfl/{season}/okc-thunder-vs-memphis-grizzlies-match-player-stats-{date},okc thunder vs memphis grizzlies match player stats,Commercial,135000,40,csv,okc thunder vs memphis grizzlies matchup
+419,3,3,/nfl/{season}/oklahoma-city-thunder-vs-denver-nuggets-match-player-stats-{date},oklahoma city thunder vs denver nuggets match player stats,Commercial,135000,40,csv,oklahoma city thunder vs denver nuggets matchup
+420,3,3,/nfl/{season}/orlando-magic-vs-boston-celtics-match-player-stats-{date},orlando magic vs boston celtics match player stats,Commercial,90500,40,csv,orlando magic vs boston celtics matchup
+421,3,3,/nfl/{season}/seahawks-vs-pittsburgh-steelers-match-player-stats-{date},seahawks vs pittsburgh steelers match player stats,Commercial,90500,40,csv,seahawks vs pittsburgh steelers matchup
+422,3,3,/nfl/{season}/washington-commanders-vs-chargers-match-player-stats-{date},washington commanders vs chargers match player stats,Commercial,110000,40,csv,washington commanders vs chargers matchup
+423,3,3,/nfl/{season}/76ers-vs-boston-celtics-match-player-stats-{date},76ers vs boston celtics match player stats,Commercial,110000,41,csv,76ers vs boston celtics matchup
+424,3,3,/nfl/{season}/atlanta-falcons-vs-washington-commanders-match-player-stats-{date},atlanta falcons vs washington commanders match player stats,Commercial,90500,41,csv,atlanta falcons vs washington commanders matchup
+425,3,3,/nfl/{season}/bengals-vs-denver-broncos-match-player-stats-{date},bengals vs denver broncos match player stats,Commercial,110000,41,csv,bengals vs denver broncos matchup
+426,3,3,/nfl/{season}/celtics-vs-76ers-match-player-stats-{date},celtics vs 76ers match player stats,Commercial,74000,41,csv,celtics vs 76ers matchup
+427,3,3,/nfl/{season}/denver-broncos-vs-buffalo-bills-match-player-stats-{date},denver broncos vs buffalo bills match player stats,Commercial,135000,41,csv,denver broncos vs buffalo bills matchup
+428,3,3,/nfl/{season}/denver-nuggets-vs-clippers-match-player-stats-{date},denver nuggets vs clippers match player stats,Commercial,110000,41,csv,denver nuggets vs clippers matchup
+429,3,3,/nfl/{season}/dodgers-vs-toronto-blue-jays-match-player-stats-{date},dodgers vs toronto blue jays match player stats,Commercial,201000,41,csv,dodgers vs toronto blue jays matchup
+430,3,3,/nfl/{season}/kansas-city-chiefs-vs-philadelphia-eagles-match-player-stats-{date},kansas city chiefs vs philadelphia eagles match player stats,Commercial,450000,41,csv,kansas city chiefs vs philadelphia eagles matchup
+431,3,3,/nfl/{season}/kansas-city-chiefs-vs-steelers-match-player-stats-{date},kansas city chiefs vs steelers match player stats,Commercial,135000,41,csv,kansas city chiefs vs steelers matchup
+432,3,3,/nfl/{season}/las-vegas-raiders-vs-colts-match-player-stats-{date},las vegas raiders vs colts match player stats,Commercial,74000,41,csv,las vegas raiders vs colts matchup
+433,3,3,/nfl/{season}/los-angeles-rams-vs-philadelphia-eagles-match-player-stats-{date},los angeles rams vs philadelphia eagles match player stats,Commercial,301000,41,csv,los angeles rams vs philadelphia eagles matchup
+434,3,3,/nfl/{season}/memphis-grizzlies-vs-golden-state-warriors-match-player-stats-{date},memphis grizzlies vs golden state warriors match player stats,Commercial,165000,41,csv,memphis grizzlies vs golden state warriors matchup
+435,3,3,/nfl/{season}/milwaukee-brewers-vs-dodgers-match-player-stats-{date},milwaukee brewers vs dodgers match player stats,Commercial,110000,41,csv,milwaukee brewers vs dodgers matchup
+436,3,3,/nfl/{season}/milwaukee-bucks-vs-cleveland-cavaliers-match-player-stats-{date},milwaukee bucks vs cleveland cavaliers match player stats,Commercial,74000,41,csv,milwaukee bucks vs cleveland cavaliers matchup
+437,3,3,/nfl/{season}/ohio-state-vs-illinois-{date},ohio state vs illinois,Informational,74000,41,csv,ohio state vs illinois matchup
+438,3,3,/nfl/{season}/padres-vs-dodgers-match-player-stats-{date},padres vs dodgers match player stats,Commercial,90500,41,csv,padres vs dodgers matchup
+439,3,3,/nfl/{season}/red-sox-vs-new-york-yankees-match-player-stats-{date},red sox vs new york yankees match player stats,Commercial,165000,41,csv,red sox vs new york yankees matchup
+440,3,3,/nfl/{season}/san-antonio-spurs-vs-dallas-mavericks-match-player-stats-{date},san antonio spurs vs dallas mavericks match player stats,Commercial,165000,41,csv,san antonio spurs vs dallas mavericks matchup
+441,3,3,/nfl/{season}/tampa-bay-buccaneers-vs-dallas-cowboys-match-player-stats-{date},tampa bay buccaneers vs dallas cowboys match player stats,Commercial,90500,41,csv,tampa bay buccaneers vs dallas cowboys matchup
+442,3,3,/nfl/{season}/timberwolves-vs-golden-state-warriors-match-player-stats-{date},timberwolves vs golden state warriors match player stats,Commercial,201000,41,csv,timberwolves vs golden state warriors matchup
+443,3,3,/nfl/{season}/cleveland-cavaliers-vs-miami-heat-match-player-stats-{date},cleveland cavaliers vs miami heat match player stats,Commercial,90500,42,csv,cleveland cavaliers vs miami heat matchup
+444,3,3,/nfl/{season}/cleveland-cavaliers-vs-pacers-match-player-stats-{date},cleveland cavaliers vs pacers match player stats,Commercial,201000,42,csv,cleveland cavaliers vs pacers matchup
+445,3,3,/nfl/{season}/connecticut-sun-vs-indiana-fever-match-player-stats-{date},connecticut sun vs indiana fever match player stats,Commercial,60500,42,csv,connecticut sun vs indiana fever matchup
+446,3,3,/nfl/{season}/golden-state-warriors-vs-memphis-grizzlies-match-player-stats-{date},golden state warriors vs memphis grizzlies match player stats,Commercial,110000,42,csv,golden state warriors vs memphis grizzlies matchup
+447,3,3,/nfl/{season}/indiana-fever-vs-minnesota-lynx-match-player-stats-{date},indiana fever vs minnesota lynx match player stats,Commercial,60500,42,csv,indiana fever vs minnesota lynx matchup
+448,3,3,/nfl/{season}/iowa-state-womens-basketball-{date},iowa state women's basketball,Informational,60500,42,csv,Matchup stats
+449,3,3,/nfl/{season}/la-clippers-vs-new-orleans-pelicans-match-player-stats-{date},la clippers vs new orleans pelicans match player stats,Commercial,74000,42,csv,la clippers vs new orleans pelicans matchup
+450,3,3,/nfl/{season}/las-vegas-raiders-vs-new-england-patriots-match-player-stats-{date},las vegas raiders vs new england patriots match player stats,Commercial,110000,42,csv,las vegas raiders vs new england patriots matchup
+451,3,3,/nfl/{season}/miami-heat-vs-cleveland-cavaliers-match-player-stats-{date},miami heat vs cleveland cavaliers match player stats,Commercial,90500,42,csv,miami heat vs cleveland cavaliers matchup
+452,3,3,/nfl/{season}/philadelphia-eagles-vs-kansas-city-chiefs-match-player-stats-{date},philadelphia eagles vs kansas city chiefs match player stats,Commercial,135000,42,csv,philadelphia eagles vs kansas city chiefs matchup
+453,3,3,/nfl/{season}/stater-bros-{date},stater bros,Navigational,201000,42,csv,Matchup stats
+454,3,3,/nfl/{season}/toronto-blue-jays-vs-dodgers-match-player-stats-{date},toronto blue jays vs dodgers match player stats,Commercial,368000,42,csv,toronto blue jays vs dodgers matchup
+455,3,3,/nfl/{season}/washington-commanders-vs-green-bay-packers-match-player-stats-{date},washington commanders vs green bay packers match player stats,Commercial,110000,42,csv,washington commanders vs green bay packers matchup
+456,3,3,/nfl/{season}/charlotte-hornets-vs-76ers-match-player-stats-{date},charlotte hornets vs 76ers match player stats,Commercial,135000,43,csv,charlotte hornets vs 76ers matchup
+457,3,3,/nfl/{season}/dallas-mavericks-vs-lakers-match-player-stats-{date},dallas mavericks vs lakers match player stats,Commercial,201000,43,csv,dallas mavericks vs lakers matchup
+458,3,3,/nfl/{season}/dallas-wings-vs-indiana-fever-match-player-stats-{date},dallas wings vs indiana fever match player stats,Commercial,60500,43,csv,dallas wings vs indiana fever matchup
+459,3,3,/nfl/{season}/denver-nuggets-vs-okc-thunder-match-player-stats-{date},denver nuggets vs okc thunder match player stats,Commercial,301000,43,csv,denver nuggets vs okc thunder matchup
+460,3,3,/nfl/{season}/golden-state-warriors-vs-lakers-match-player-stats-{date},golden state warriors vs lakers match player stats,Commercial,368000,43,csv,golden state warriors vs lakers matchup
+461,3,3,/nfl/{season}/green-bay-packers-vs-philadelphia-eagles-match-player-stats-{date},green bay packers vs philadelphia eagles match player stats,Commercial,165000,43,csv,green bay packers vs philadelphia eagles matchup
+462,3,3,/nfl/{season}/knicks-vs-lakers-match-player-stats-{date},knicks vs lakers match player stats,Commercial,90500,43,csv,knicks vs lakers matchup
+463,3,3,/nfl/{season}/lakers-vs-la-clippers-match-player-stats-{date},lakers vs la clippers match player stats,Commercial,90500,43,csv,lakers vs la clippers matchup
+464,3,3,/nfl/{season}/mississippi-state-basketball-{date},mississippi state basketball,Informational,74000,43,csv,Matchup stats
+465,3,3,/nfl/{season}/texas-vs-arizona-state-{date},texas vs arizona state,Informational,110000,43,csv,texas vs arizona state matchup
+466,3,3,/nfl/{season}/chicago-bears-vs-las-vegas-raiders-match-player-stats-{date},chicago bears vs las vegas raiders match player stats,Commercial,74000,44,csv,chicago bears vs las vegas raiders matchup
+467,3,3,/nfl/{season}/chicago-sky-vs-indiana-fever-match-player-stats-{date},chicago sky vs indiana fever match player stats,Commercial,90500,44,csv,chicago sky vs indiana fever matchup
+468,3,3,/nfl/{season}/cincinnati-reds-vs-dodgers-match-player-stats-{date},cincinnati reds vs dodgers match player stats,Commercial,90500,44,csv,cincinnati reds vs dodgers matchup
+469,3,3,/nfl/{season}/cleveland-cavaliers-vs-la-clippers-match-player-stats-{date},cleveland cavaliers vs la clippers match player stats,Commercial,60500,44,csv,cleveland cavaliers vs la clippers matchup
+470,3,3,/nfl/{season}/dallas-mavericks-vs-celtics-match-player-stats-{date},dallas mavericks vs celtics match player stats,Commercial,74000,44,csv,dallas mavericks vs celtics matchup
+471,3,3,/nfl/{season}/detroit-lions-vs-49ers-match-player-stats-{date},detroit lions vs 49ers match player stats,Commercial,135000,44,csv,detroit lions vs 49ers matchup
+472,3,3,/nfl/{season}/indiana-fever-vs-seattle-storm-match-player-stats-{date},indiana fever vs seattle storm match player stats,Commercial,60500,44,csv,indiana fever vs seattle storm matchup
+473,3,3,/nfl/{season}/indiana-pacers-vs-oklahoma-city-thunder-match-player-stats-{date},indiana pacers vs oklahoma city thunder match player stats,Commercial,368000,44,csv,indiana pacers vs oklahoma city thunder matchup
+474,3,3,/nfl/{season}/kansas-city-chiefs-vs-philadelphia-eagles-stats-{date},kansas city chiefs vs philadelphia eagles stats,Commercial,74000,44,csv,kansas city chiefs vs philadelphia eagles stats matchup
+475,3,3,/nfl/{season}/lakers-vs-okc-thunder-match-player-stats-{date},lakers vs okc thunder match player stats,Commercial,135000,44,csv,lakers vs okc thunder matchup
+476,3,3,/nfl/{season}/las-vegas-aces-vs-indiana-fever-match-player-stats-{date},las vegas aces vs indiana fever match player stats,Commercial,90500,44,csv,las vegas aces vs indiana fever matchup
+477,3,3,/nfl/{season}/los-angeles-chargers-vs-new-york-giants-match-player-stats-{date},los angeles chargers vs new york giants match player stats,Commercial,90500,44,csv,los angeles chargers vs new york giants matchup
+478,3,3,/nfl/{season}/tampa-bay-buccaneers-vs-seahawks-match-player-stats-{date},tampa bay buccaneers vs seahawks match player stats,Commercial,110000,44,csv,tampa bay buccaneers vs seahawks matchup
+479,3,3,/nfl/{season}/tennessee-titans-vs-denver-broncos-match-player-stats-{date},tennessee titans vs denver broncos match player stats,Commercial,74000,44,csv,tennessee titans vs denver broncos matchup
+480,3,3,/nfl/{season}/dallas-mavericks-vs-sacramento-kings-match-player-stats-{date},dallas mavericks vs sacramento kings match player stats,Commercial,74000,45,csv,dallas mavericks vs sacramento kings matchup
+481,3,3,/nfl/{season}/detroit-lions-vs-chicago-bears-match-player-stats-{date},detroit lions vs chicago bears match player stats,Commercial,90500,45,csv,detroit lions vs chicago bears matchup
+482,3,3,/nfl/{season}/dodgers-vs-phillies-match-player-stats-{date},dodgers vs phillies match player stats,Commercial,368000,45,csv,dodgers vs phillies matchup
+483,3,3,/nfl/{season}/knicks-vs-boston-celtics-match-player-stats-{date},knicks vs boston celtics match player stats,Commercial,201000,45,csv,knicks vs boston celtics matchup
+484,3,3,/nfl/{season}/lakers-vs-boston-celtics-match-player-stats-{date},lakers vs boston celtics match player stats,Commercial,90500,45,csv,lakers vs boston celtics matchup
+485,3,3,/nfl/{season}/lakers-vs-phoenix-suns-match-player-stats-{date},lakers vs phoenix suns match player stats,"Informational, Commercial",60500,45,csv,lakers vs phoenix suns matchup
+486,3,3,/nfl/{season}/miami-dolphins-vs-carolina-panthers-match-player-stats-{date},miami dolphins vs carolina panthers match player stats,Commercial,60500,45,csv,miami dolphins vs carolina panthers matchup
+487,3,3,/nfl/{season}/milwaukee-bucks-vs-lakers-match-player-stats-{date},milwaukee bucks vs lakers match player stats,Commercial,60500,45,csv,milwaukee bucks vs lakers matchup
+488,3,3,/nfl/{season}/minnesota-timberwolves-vs-oklahoma-city-thunder-match-player-stats-{date},minnesota timberwolves vs oklahoma city thunder match player stats,Commercial,135000,45,csv,minnesota timberwolves vs oklahoma city thunder matchup
+489,3,3,/nfl/{season}/toronto-blue-jays-vs-new-york-yankees-match-player-stats-{date},toronto blue jays vs new york yankees match player stats,Commercial,90500,45,csv,toronto blue jays vs new york yankees matchup
+490,3,3,/nfl/{season}/utah-jazz-vs-lakers-match-player-stats-{date},utah jazz vs lakers match player stats,Commercial,165000,45,csv,utah jazz vs lakers matchup
+491,3,3,/nfl/{season}/bengals-vs-green-bay-packers-match-player-stats-{date},bengals vs green bay packers match player stats,Commercial,246000,46,csv,bengals vs green bay packers matchup
+492,3,3,/nfl/{season}/detroit-tigers-vs-seattle-mariners-match-player-stats-{date},detroit tigers vs seattle mariners match player stats,Commercial,201000,46,csv,detroit tigers vs seattle mariners matchup
+493,3,3,/nfl/{season}/green-bay-packers-vs-dallas-cowboys-match-player-stats-{date},green bay packers vs dallas cowboys match player stats,Commercial,135000,46,csv,green bay packers vs dallas cowboys matchup
+494,3,3,/nfl/{season}/indiana-fever-vs-las-vegas-aces-match-player-stats-{date},indiana fever vs las vegas aces match player stats,Commercial,110000,46,csv,indiana fever vs las vegas aces matchup
+495,3,3,/nfl/{season}/jacksonville-jaguars-vs-bengals-match-player-stats-{date},jacksonville jaguars vs bengals match player stats,Commercial,90500,46,csv,jacksonville jaguars vs bengals matchup
+496,3,3,/nfl/{season}/lakers-vs-dallas-mavericks-match-player-stats-{date},lakers vs dallas mavericks match player stats,Commercial,165000,46,csv,lakers vs dallas mavericks matchup
+497,3,3,/nfl/{season}/lakers-vs-knicks-match-player-stats-{date},lakers vs knicks match player stats,Commercial,74000,46,csv,lakers vs knicks matchup
+498,3,3,/nfl/{season}/lakers-vs-pacers-match-player-stats-{date},lakers vs pacers match player stats,Commercial,74000,46,csv,lakers vs pacers matchup
+499,3,3,/nfl/{season}/minnesota-vikings-vs-los-angeles-rams-match-player-stats-{date},minnesota vikings vs los angeles rams match player stats,Commercial,165000,46,csv,minnesota vikings vs los angeles rams matchup
+500,3,3,/nfl/{season}/portland-trail-blazers-vs-lakers-match-player-stats-{date},portland trail blazers vs lakers match player stats,Commercial,90500,46,csv,portland trail blazers vs lakers matchup
+501,3,3,/nfl/{season}/watkins-glen-state-park-{date},watkins glen state park,Informational,74000,46,csv,Matchup stats
+502,3,3,/nfl/{season}/altard-state-{date},altar'd state,"Navigational, Commercial",301000,47,csv,Matchup stats
+503,3,3,/nfl/{season}/altard-state-{date},altard state,"Navigational, Commercial",165000,47,csv,Matchup stats
+504,3,3,/nfl/{season}/detroit-lions-vs-baltimore-ravens-match-player-stats-{date},detroit lions vs baltimore ravens match player stats,Commercial,135000,47,csv,detroit lions vs baltimore ravens matchup
+505,3,3,/nfl/{season}/indiana-fever-vs-atlanta-dream-match-player-stats-{date},indiana fever vs atlanta dream match player stats,Commercial,90500,47,csv,indiana fever vs atlanta dream matchup
+506,3,3,/nfl/{season}/lakers-vs-golden-state-warriors-match-player-stats-{date},lakers vs golden state warriors match player stats,Commercial,301000,47,csv,lakers vs golden state warriors matchup
+507,3,3,/nfl/{season}/pacers-vs-milwaukee-bucks-match-player-stats-{date},pacers vs milwaukee bucks match player stats,Commercial,165000,47,csv,pacers vs milwaukee bucks matchup
+508,3,3,/nfl/{season}/penn-state-vs-notre-dame-{date},penn state vs notre dame,"Informational, Transactional",165000,47,csv,penn state vs notre dame matchup
+509,3,3,/nfl/{season}/penn-state-vs-oregon-{date},penn state vs oregon,Informational,135000,47,csv,penn state vs oregon matchup
+510,3,3,/nfl/{season}/san-antonio-spurs-vs-memphis-grizzlies-match-player-stats-{date},san antonio spurs vs memphis grizzlies match player stats,Commercial,60500,47,csv,san antonio spurs vs memphis grizzlies matchup
+511,3,3,/nfl/{season}/california-secretary-of-state-business-search-{date},california secretary of state business search,"Informational, Navigational",60500,48,csv,Matchup stats
+512,3,3,/nfl/{season}/charlotte-hornets-vs-lakers-match-player-stats-{date},charlotte hornets vs lakers match player stats,Commercial,90500,48,csv,charlotte hornets vs lakers matchup
+513,3,3,/nfl/{season}/clippers-vs-denver-nuggets-match-player-stats-{date},clippers vs denver nuggets match player stats,Commercial,246000,48,csv,clippers vs denver nuggets matchup
+514,3,3,/nfl/{season}/denver-nuggets-vs-oklahoma-city-thunder-match-player-stats-{date},denver nuggets vs oklahoma city thunder match player stats,Commercial,201000,48,csv,denver nuggets vs oklahoma city thunder matchup
+515,3,3,/nfl/{season}/jakob-poeltl-stats-{date},jakob poeltl stats,Informational,60500,48,csv,Matchup stats
+516,3,3,/nfl/{season}/montana-state-football-{date},montana state football,Informational,110000,48,csv,Matchup stats
+517,3,3,/nfl/{season}/notre-dame-vs-penn-state-{date},notre dame vs penn state,"Informational, Transactional",201000,48,csv,notre dame vs penn state matchup
+518,3,3,/nfl/{season}/ohio-state-football-schedule-{date},ohio state football schedule,Informational,368000,48,csv,Matchup stats
+519,3,3,/nfl/{season}/pacers-vs-lakers-match-player-stats-{date},pacers vs lakers match player stats,Commercial,90500,48,csv,pacers vs lakers matchup
+520,3,3,/nfl/{season}/phillies-vs-dodgers-match-player-stats-{date},phillies vs dodgers match player stats,Commercial,90500,48,csv,phillies vs dodgers matchup
+521,3,3,/nfl/{season}/boston-celtics-vs-knicks-match-player-stats-{date},boston celtics vs knicks match player stats,Commercial,246000,49,csv,boston celtics vs knicks matchup
+522,3,3,/nfl/{season}/green-bay-packers-vs-cleveland-browns-match-player-stats-{date},green bay packers vs cleveland browns match player stats,Commercial,60500,49,csv,green bay packers vs cleveland browns matchup
+523,3,3,/nfl/{season}/la-clippers-vs-lakers-match-player-stats-{date},la clippers vs lakers match player stats,Commercial,165000,49,csv,la clippers vs lakers matchup
+524,3,3,/nfl/{season}/new-orleans-pelicans-vs-lakers-match-player-stats-{date},new orleans pelicans vs lakers match player stats,Commercial,135000,49,csv,new orleans pelicans vs lakers matchup
+525,3,3,/nfl/{season}/new-york-yankees-vs-toronto-blue-jays-match-player-stats-{date},new york yankees vs toronto blue jays match player stats,Commercial,90500,49,csv,new york yankees vs toronto blue jays matchup
+526,3,3,/nfl/{season}/2024-united-states-gubernatorial-elections-{date},2024 united states gubernatorial elections,Informational,90500,50,csv,Matchup stats
+527,3,3,/nfl/{season}/2024-united-states-presidential-election-in-wisconsin-{date},2024 united states presidential election in wisconsin,Informational,550000,50,csv,Matchup stats
+528,3,3,/nfl/{season}/2024-united-states-senate-election-in-florida-{date},2024 united states senate election in florida,Informational,110000,50,csv,Matchup stats
+529,3,3,/nfl/{season}/2024-united-states-senate-election-in-wisconsin-{date},2024 united states senate election in wisconsin,Informational,74000,50,csv,Matchup stats
+530,3,3,/nfl/{season}/altered-state-{date},altered state,"Navigational, Commercial",368000,50,csv,Matchup stats
+531,3,3,/nfl/{season}/baltimore-ravens-vs-buffalo-bills-match-player-stats-{date},baltimore ravens vs buffalo bills match player stats,Commercial,301000,50,csv,baltimore ravens vs buffalo bills matchup
+532,3,3,/nfl/{season}/buffalo-bills-vs-baltimore-ravens-match-player-stats-{date},buffalo bills vs baltimore ravens match player stats,Commercial,90500,50,csv,buffalo bills vs baltimore ravens matchup
+533,3,3,/nfl/{season}/carolina-panthers-vs-arizona-cardinals-match-player-stats-{date},carolina panthers vs arizona cardinals match player stats,Commercial,74000,50,csv,carolina panthers vs arizona cardinals matchup
+534,3,3,/nfl/{season}/cleveland-browns-vs-detroit-lions-match-player-stats-{date},cleveland browns vs detroit lions match player stats,Commercial,60500,50,csv,cleveland browns vs detroit lions matchup
+535,3,3,/nfl/{season}/fc-barcelona-vs-real-madrid-stats-{date},fc barcelona vs real madrid stats,Commercial,60500,50,csv,fc barcelona vs real madrid stats matchup
+536,3,3,/nfl/{season}/golden-state-warriors-vs-san-antonio-spurs-match-player-stats-{date},golden state warriors vs san antonio spurs match player stats,Commercial,90500,50,csv,golden state warriors vs san antonio spurs matchup
+537,3,3,/nfl/{season}/green-bay-packers-vs-detroit-lions-match-player-stats-{date},green bay packers vs detroit lions match player stats,Commercial,165000,50,csv,green bay packers vs detroit lions matchup
+538,3,3,/nfl/{season}/indiana-fever-vs-dallas-wings-match-player-stats-{date},indiana fever vs dallas wings match player stats,Commercial,60500,50,csv,indiana fever vs dallas wings matchup
+539,3,3,/nfl/{season}/iowa-state-basketball-{date},iowa state basketball,Informational,368000,50,csv,Matchup stats
+540,3,3,/nfl/{season}/michigan-vs-ohio-state-{date},michigan vs ohio state,Informational,165000,50,csv,michigan vs ohio state matchup
+541,3,3,/nfl/{season}/milwaukee-bucks-vs-pacers-match-player-stats-{date},milwaukee bucks vs pacers match player stats,Commercial,110000,50,csv,milwaukee bucks vs pacers matchup
+542,3,3,/nfl/{season}/ohio-state-basketball-{date},ohio state basketball,Informational,165000,50,csv,Matchup stats
+543,3,3,/nfl/{season}/ohio-state-score-{date},ohio state score,Informational,135000,50,csv,Matchup stats
+544,3,3,/nfl/{season}/oklahoma-city-thunder-vs-indiana-pacers-match-player-stats-{date},oklahoma city thunder vs indiana pacers match player stats,Commercial,450000,50,csv,oklahoma city thunder vs indiana pacers matchup
+545,3,3,/nfl/{season}/padres-vs-new-york-yankees-match-player-stats-{date},padres vs new york yankees match player stats,Commercial,60500,50,csv,padres vs new york yankees matchup
+546,3,3,/nfl/{season}/penn-state-wrestling-{date},penn state wrestling,Informational,110000,50,csv,Matchup stats
+547,3,3,/nfl/{season}/south-state-bank-{date},south state bank,Navigational,165000,50,csv,Matchup stats
+548,3,3,/nfl/{season}/texas-vs-ohio-state-{date},texas vs ohio state,Informational,368000,50,csv,texas vs ohio state matchup
+549,3,3,/nfl/{season}/timberwolves-vs-lakers-match-player-stats-{date},timberwolves vs lakers match player stats,Commercial,550000,50,csv,timberwolves vs lakers matchup
+550,3,3,/nfl/{season}/aaron-nesmith-stats-{date},aaron nesmith stats,Informational,74000,51,csv,Matchup stats
+551,3,3,/nfl/{season}/denver-nuggets-vs-golden-state-warriors-match-player-stats-{date},denver nuggets vs golden state warriors match player stats,Commercial,165000,51,csv,denver nuggets vs golden state warriors matchup
+552,3,3,/nfl/{season}/lakers-vs-chicago-bulls-match-player-stats-{date},lakers vs chicago bulls match player stats,Commercial,60500,51,csv,lakers vs chicago bulls matchup
+553,3,3,/nfl/{season}/ohio-state-vs-texas-{date},ohio state vs texas,Informational,368000,51,csv,ohio state vs texas matchup
+554,3,3,/nfl/{season}/oregon-state-baseball-{date},oregon state baseball,"Informational, Navigational",74000,51,csv,Matchup stats
+555,3,3,/nfl/{season}/2024-united-states-senate-election-in-maryland-{date},2024 united states senate election in maryland,Informational,74000,52,csv,Matchup stats
+556,3,3,/nfl/{season}/oklahoma-city-thunder-vs-minnesota-timberwolves-match-player-stats-{date},oklahoma city thunder vs minnesota timberwolves match player stats,Commercial,110000,52,csv,oklahoma city thunder vs minnesota timberwolves matchup
+557,3,3,/nfl/{season}/penn-state-basketball-{date},penn state basketball,Informational,60500,52,csv,Matchup stats
+558,3,3,/nfl/{season}/tampa-bay-buccaneers-vs-kansas-city-chiefs-match-player-stats-{date},tampa bay buccaneers vs kansas city chiefs match player stats,Commercial,135000,52,csv,tampa bay buccaneers vs kansas city chiefs matchup
+559,3,3,/nfl/{season}/detroit-pistons-vs-knicks-match-player-stats-{date},detroit pistons vs knicks match player stats,Commercial,135000,54,csv,detroit pistons vs knicks matchup
+560,3,3,/nfl/{season}/jordan-addison-stats-{date},jordan addison stats,Informational,60500,54,csv,Matchup stats
+561,3,3,/nfl/{season}/nc-state-basketball-{date},nc state basketball,Informational,110000,54,csv,Matchup stats
+562,3,3,/nfl/{season}/ohio-state-vs-michigan-{date},ohio state vs michigan,Informational,110000,54,csv,ohio state vs michigan matchup
+563,3,3,/nfl/{season}/2024-united-states-senate-election-in-pennsylvania-{date},2024 united states senate election in pennsylvania,Informational,201000,55,csv,Matchup stats
+564,3,3,/nfl/{season}/2024-united-states-senate-election-in-texas-{date},2024 united states senate election in texas,Informational,165000,55,csv,Matchup stats
+565,3,3,/nfl/{season}/austin-reaves-game-stats-{date},austin reaves game stats,Informational,60500,55,csv,Matchup stats
+566,3,3,/nfl/{season}/chase-brown-stats-{date},chase brown stats,Informational,74000,55,csv,Matchup stats
+567,3,3,/nfl/{season}/chicago-bulls-vs-lakers-match-player-stats-{date},chicago bulls vs lakers match player stats,Commercial,74000,55,csv,chicago bulls vs lakers matchup
+568,3,3,/nfl/{season}/ohio-state-vs-notre-dame-{date},ohio state vs notre dame,Informational,450000,55,csv,ohio state vs notre dame matchup
+569,3,3,/nfl/{season}/state-capitals-{date},state capitals,Informational,90500,55,csv,Matchup stats
+570,3,3,/nfl/{season}/state-fair-of-texas-{date},state fair of texas,Navigational,60500,55,csv,Matchup stats
+571,3,3,/nfl/{season}/united-states-map-{date},united states map,Informational,450000,55,csv,Matchup stats
+572,3,3,/nfl/{season}/2024-united-states-senate-election-in-nevada-{date},2024 united states senate election in nevada,Informational,201000,56,csv,Matchup stats
+573,3,3,/nfl/{season}/cast-of-the-electric-state-{date},cast of the electric state,Informational,110000,56,csv,Matchup stats
+574,3,3,/nfl/{season}/jonathan-kuminga-stats-{date},jonathan kuminga stats,Informational,60500,56,csv,Matchup stats
+575,3,3,/nfl/{season}/nico-collins-stats-{date},nico collins stats,Informational,90500,56,csv,Matchup stats
+576,3,3,/nfl/{season}/swing-states-{date},swing states,Informational,74000,56,csv,Matchup stats
+577,3,3,/nfl/{season}/california-secretary-of-state-{date},california secretary of state,Navigational,60500,57,csv,Matchup stats
+578,3,3,/nfl/{season}/delta-state-university-{date},delta state university,"Informational, Navigational",60500,57,csv,Matchup stats
+579,3,3,/nfl/{season}/devon-achane-stats-{date},devon achane stats,Informational,60500,57,csv,Matchup stats
+580,3,3,/nfl/{season}/dyson-daniels-stats-{date},dyson daniels stats,Informational,110000,57,csv,Matchup stats
+581,3,3,/nfl/{season}/illinois-secretary-of-state-{date},illinois secretary of state,"Navigational, Commercial",90500,57,csv,Matchup stats
+582,3,3,/nfl/{season}/jared-mccain-stats-{date},jared mccain stats,Informational,60500,57,csv,Matchup stats
+583,3,3,/nfl/{season}/joe-mixon-stats-{date},joe mixon stats,Informational,74000,57,csv,Matchup stats
+584,3,3,/nfl/{season}/nick-chubb-stats-{date},nick chubb stats,Informational,60500,57,csv,Matchup stats
+585,3,3,/nfl/{season}/palmetto-state-armory-{date},palmetto state armory,"Navigational, Transactional",1220000,57,csv,Matchup stats
+586,3,3,/nfl/{season}/penn-state-football-schedule-{date},penn state football schedule,Informational,165000,57,csv,Matchup stats
+587,3,3,/nfl/{season}/tj-mcconnell-stats-{date},tj mcconnell stats,Informational,74000,57,csv,Matchup stats
+588,3,3,/nfl/{season}/2024-united-states-house-of-representatives-elections-{date},2024 united states house of representatives elections,Informational,301000,58,csv,Matchup stats
+589,3,3,/nfl/{season}/james-cook-stats-{date},james cook stats,Informational,110000,58,csv,Matchup stats
+590,3,3,/nfl/{season}/najee-harris-stats-{date},najee harris stats,Informational,74000,58,csv,Matchup stats
+591,3,3,/nfl/{season}/travis-hunter-stats-{date},travis hunter stats,Informational,90500,58,csv,Matchup stats
+592,3,3,/nfl/{season}/anfernee-simons-stats-{date},anfernee simons stats,Informational,110000,59,csv,Matchup stats
+593,3,3,/nfl/{season}/denver-nuggets-vs-lakers-match-player-stats-{date},denver nuggets vs lakers match player stats,Commercial,135000,59,csv,denver nuggets vs lakers matchup
+594,3,3,/nfl/{season}/houston-rockets-vs-golden-state-warriors-match-player-stats-{date},houston rockets vs golden state warriors match player stats,Commercial,368000,59,csv,houston rockets vs golden state warriors matchup
+595,3,3,/nfl/{season}/jamarr-chase-stats-{date},ja'marr chase stats,Informational,74000,59,csv,Matchup stats
+596,3,3,/nfl/{season}/javonte-williams-stats-{date},javonte williams stats,Informational,60500,59,csv,Matchup stats
+597,3,3,/nfl/{season}/lakers-vs-timberwolves-match-player-stats-{date},lakers vs timberwolves match player stats,Commercial,301000,59,csv,lakers vs timberwolves matchup
+598,3,3,/nfl/{season}/mike-conley-stats-{date},mike conley stats,Informational,74000,59,csv,Matchup stats
+599,3,3,/nfl/{season}/notre-dame-vs-ohio-state-{date},notre dame vs ohio state,Informational,135000,59,csv,notre dame vs ohio state matchup
+600,3,3,/nfl/{season}/r6-stat-tracker-{date},r6 stat tracker,Informational,60500,59,csv,Matchup stats
+601,3,3,/nfl/{season}/rico-dowdle-stats-{date},rico dowdle stats,Informational,60500,59,csv,Matchup stats
+602,3,3,/nfl/{season}/angel-reese-stats-{date},angel reese stats,Informational,90500,60,csv,Matchup stats
+603,3,3,/nfl/{season}/arizona-state-football-{date},arizona state football,Informational,246000,60,csv,Matchup stats
+604,3,3,/nfl/{season}/dennis-schroder-stats-{date},dennis schroder stats,Informational,90500,60,csv,Matchup stats
+605,3,3,/nfl/{season}/letchworth-state-park-{date},letchworth state park,Informational,60500,60,csv,Matchup stats
+606,3,3,/nfl/{season}/obi-toppin-stats-{date},obi toppin stats,Informational,60500,60,csv,Matchup stats
+607,3,3,/nfl/{season}/oregon-vs-penn-state-{date},oregon vs penn state,Informational,110000,60,csv,oregon vs penn state matchup
+608,3,3,/nfl/{season}/red-state-{date},red state,Transactional,74000,60,csv,Matchup stats
+609,3,3,/nfl/{season}/state-farm-arena-{date},state farm arena,"Informational, Navigational",90500,60,csv,Matchup stats
+610,3,3,/nfl/{season}/stephon-castle-stats-{date},stephon castle stats,Informational,74000,60,csv,Matchup stats
+611,3,3,/nfl/{season}/2024-united-states-senate-election-in-ohio-{date},2024 united states senate election in ohio,Informational,90500,61,csv,Matchup stats
+612,3,3,/nfl/{season}/amon-ra-st-brown-stats-{date},amon ra st brown stats,Informational,90500,61,csv,Matchup stats
+613,3,3,/nfl/{season}/bucky-irving-stats-{date},bucky irving stats,Informational,60500,61,csv,Matchup stats
+614,3,3,/nfl/{season}/cal-state-fullerton-{date},cal state fullerton,Navigational,74000,61,csv,Matchup stats
+615,3,3,/nfl/{season}/cooper-flagg-stats-{date},cooper flagg stats,Informational,90500,61,csv,Matchup stats
+616,3,3,/nfl/{season}/jaren-jackson-jr-stats-{date},jaren jackson jr stats,Informational,135000,61,csv,Matchup stats
+617,3,3,/nfl/{season}/kareem-hunt-stats-{date},kareem hunt stats,Informational,90500,61,csv,Matchup stats
+618,3,3,/nfl/{season}/keegan-murray-stats-{date},keegan murray stats,Informational,60500,61,csv,Matchup stats
+619,3,3,/nfl/{season}/malik-monk-stats-{date},malik monk stats,Informational,90500,61,csv,Matchup stats
+620,3,3,/nfl/{season}/naz-reid-stats-{date},naz reid stats,Informational,135000,61,csv,Matchup stats
+621,3,3,/nfl/{season}/puka-nacua-stats-{date},puka nacua stats,Informational,110000,61,csv,Matchup stats
+622,3,3,/nfl/{season}/rui-hachimura-stats-{date},rui hachimura stats,Informational,90500,61,csv,Matchup stats
+623,3,3,/nfl/{season}/2024-united-states-senate-election-in-arizona-{date},2024 united states senate election in arizona,Informational,673000,62,csv,Matchup stats
+624,3,3,/nfl/{season}/alex-caruso-stats-{date},alex caruso stats,Informational,74000,62,csv,Matchup stats
+625,3,3,/nfl/{season}/deni-avdija-stats-{date},deni avdija stats,Informational,74000,62,csv,Matchup stats
+626,3,3,/nfl/{season}/golden-state-warriors-vs-houston-rockets-{date},golden state warriors vs houston rockets,Informational,74000,62,csv,golden state warriors vs houston rockets matchup
+627,3,3,/nfl/{season}/gradey-dick-stats-{date},gradey dick stats,Informational,60500,62,csv,Matchup stats
+628,3,3,/nfl/{season}/ivica-zubac-stats-{date},ivica zubac stats,Informational,110000,62,csv,Matchup stats
+629,3,3,/nfl/{season}/john-collins-stats-{date},john collins stats,Informational,74000,62,csv,Matchup stats
+630,3,3,/nfl/{season}/keyonte-george-stats-{date},keyonte george stats,Informational,60500,62,csv,Matchup stats
+631,3,3,/nfl/{season}/michigan-state-basketball-{date},michigan state basketball,Informational,550000,62,csv,Matchup stats
+632,3,3,/nfl/{season}/tyrese-maxey-stats-{date},tyrese maxey stats,Informational,165000,62,csv,Matchup stats
+633,3,3,/nfl/{season}/zach-edey-stats-{date},zach edey stats,Informational,110000,62,csv,Matchup stats
+634,3,3,/nfl/{season}/2024-united-states-presidential-election-in-arizona-{date},2024 united states presidential election in arizona,Informational,1000000,63,csv,Matchup stats
+635,3,3,/nfl/{season}/2024-united-states-presidential-election-in-florida-{date},2024 united states presidential election in florida,Informational,550000,63,csv,Matchup stats
+636,3,3,/nfl/{season}/2024-united-states-presidential-election-in-north-carolina-{date},2024 united states presidential election in north carolina,Informational,368000,63,csv,Matchup stats
+637,3,3,/nfl/{season}/ausar-thompson-stats-{date},ausar thompson stats,Informational,74000,63,csv,Matchup stats
+638,3,3,/nfl/{season}/bennedict-mathurin-stats-{date},bennedict mathurin stats,Informational,74000,63,csv,Matchup stats
+639,3,3,/nfl/{season}/collin-sexton-stats-{date},collin sexton stats,Informational,90500,63,csv,Matchup stats
+640,3,3,/nfl/{season}/colorado-state-football-{date},colorado state football,Informational,60500,63,csv,Matchup stats
+641,3,3,/nfl/{season}/golden-state-valkyries-{date},golden state valkyries,"Informational, Navigational",90500,63,csv,Matchup stats
+642,3,3,/nfl/{season}/golden-state-warriors-vs-houston-rockets-match-player-stats-{date},golden state warriors vs houston rockets match player stats,Commercial,450000,63,csv,golden state warriors vs houston rockets matchup
+643,3,3,/nfl/{season}/julius-randle-stats-{date},julius randle stats,Informational,201000,63,csv,Matchup stats
+644,3,3,/nfl/{season}/ladd-mcconkey-stats-{date},ladd mcconkey stats,Informational,74000,63,csv,Matchup stats
+645,3,3,/nfl/{season}/map-of-the-united-states-{date},map of the united states,Informational,301000,63,csv,Matchup stats
+646,3,3,/nfl/{season}/mark-andrews-stats-{date},mark andrews stats,Informational,74000,63,csv,Matchup stats
+647,3,3,/nfl/{season}/miles-bridges-stats-{date},miles bridges stats,Informational,135000,63,csv,Matchup stats
+648,3,3,/nfl/{season}/nikola-vucevic-stats-{date},nikola vucevic stats,Informational,110000,63,csv,Matchup stats
+649,3,3,/nfl/{season}/quentin-grimes-stats-{date},quentin grimes stats,Informational,74000,63,csv,Matchup stats
+650,3,3,/nfl/{season}/sam-houston-state-university-{date},sam houston state university,"Informational, Navigational",60500,63,csv,Matchup stats
+651,3,3,/nfl/{season}/saquon-barkley-stats-{date},saquon barkley stats,Informational,368000,63,csv,Matchup stats
+652,3,3,/nfl/{season}/2024-united-states-presidential-election-in-pennsylvania-{date},2024 united states presidential election in pennsylvania,Informational,1000000,64,csv,Matchup stats
+653,3,3,/nfl/{season}/2024-united-states-senate-election-in-michigan-{date},2024 united states senate election in michigan,Informational,110000,64,csv,Matchup stats
+654,3,3,/nfl/{season}/aaron-gordon-stats-{date},aaron gordon stats,Informational,110000,64,csv,Matchup stats
+655,3,3,/nfl/{season}/aaron-jones-stats-{date},aaron jones stats,Informational,60500,64,csv,Matchup stats
+656,3,3,/nfl/{season}/app-state-football-{date},app state football,Informational,60500,64,csv,Matchup stats
+657,3,3,/nfl/{season}/bobby-portis-stats-{date},bobby portis stats,Informational,60500,64,csv,Matchup stats
+658,3,3,/nfl/{season}/brock-bowers-stats-{date},brock bowers stats,Informational,60500,64,csv,Matchup stats
+659,3,3,/nfl/{season}/derrick-henry-stats-{date},derrick henry stats,Informational,246000,64,csv,Matchup stats
+660,3,3,/nfl/{season}/dillon-brooks-stats-{date},dillon brooks stats,Informational,74000,64,csv,Matchup stats
+661,3,3,/nfl/{season}/donte-divincenzo-stats-{date},donte divincenzo stats,Informational,74000,64,csv,Matchup stats
+662,3,3,/nfl/{season}/isaiah-hartenstein-stats-{date},isaiah hartenstein stats,Informational,165000,64,csv,Matchup stats
+663,3,3,/nfl/{season}/jk-dobbins-stats-{date},jk dobbins stats,Informational,60500,64,csv,Matchup stats
+664,3,3,/nfl/{season}/jrue-holiday-stats-{date},jrue holiday stats,Informational,110000,64,csv,Matchup stats
+665,3,3,/nfl/{season}/khris-middleton-stats-{date},khris middleton stats,Informational,60500,64,csv,Matchup stats
+666,3,3,/nfl/{season}/kyren-williams-stats-{date},kyren williams stats,Informational,90500,64,csv,Matchup stats
+667,3,3,/nfl/{season}/lauri-markkanen-stats-{date},lauri markkanen stats,Informational,90500,64,csv,Matchup stats
+668,3,3,/nfl/{season}/luguentz-dort-stats-{date},luguentz dort stats,Informational,60500,64,csv,Matchup stats
+669,3,3,/nfl/{season}/mark-williams-stats-{date},mark williams stats,Informational,90500,64,csv,Matchup stats
+670,3,3,/nfl/{season}/norman-powell-stats-{date},norman powell stats,Informational,135000,64,csv,Matchup stats
+671,3,3,/nfl/{season}/og-anunoby-stats-{date},og anunoby stats,Informational,135000,64,csv,Matchup stats
+672,3,3,/nfl/{season}/ohio-state-game-{date},ohio state game,Informational,201000,64,csv,Matchup stats
+673,3,3,/nfl/{season}/shaedon-sharpe-stats-{date},shaedon sharpe stats,Informational,60500,64,csv,Matchup stats
+674,3,3,/nfl/{season}/state-farm-customer-service-{date},state farm customer service,"Informational, Transactional",135000,64,csv,Matchup stats
+675,3,3,/nfl/{season}/tobias-harris-stats-{date},tobias harris stats,Informational,90500,64,csv,Matchup stats
+676,3,3,/nfl/{season}/xavier-worthy-stats-{date},xavier worthy stats,Informational,90500,64,csv,Matchup stats
+677,3,3,/nfl/{season}/2024-united-states-presidential-election-in-michigan-{date},2024 united states presidential election in michigan,Informational,823000,65,csv,Matchup stats
+678,3,3,/nfl/{season}/andrew-nembhard-stats-{date},andrew nembhard stats,Informational,90500,65,csv,Matchup stats
+679,3,3,/nfl/{season}/brandon-miller-stats-{date},brandon miller stats,Informational,60500,65,csv,Matchup stats
+680,3,3,/nfl/{season}/clint-capela-stats-{date},clint capela stats,Informational,60500,65,csv,Matchup stats
+681,3,3,/nfl/{season}/courtland-sutton-stats-{date},courtland sutton stats,Informational,60500,65,csv,Matchup stats
+682,3,3,/nfl/{season}/fresno-state-football-{date},fresno state football,Informational,90500,65,csv,Matchup stats
+683,3,3,/nfl/{season}/isiah-pacheco-stats-{date},isiah pacheco stats,Informational,60500,65,csv,Matchup stats
+684,3,3,/nfl/{season}/jalen-johnson-stats-{date},jalen johnson stats,Informational,90500,65,csv,Matchup stats
+685,3,3,/nfl/{season}/jameson-williams-stats-{date},jameson williams stats,Informational,74000,65,csv,Matchup stats
+686,3,3,/nfl/{season}/jonathan-taylor-stats-{date},jonathan taylor stats,Informational,74000,65,csv,Matchup stats
+687,3,3,/nfl/{season}/keenan-allen-stats-{date},keenan allen stats,Informational,60500,65,csv,Matchup stats
+688,3,3,/nfl/{season}/map-of-united-states-{date},map of united states,Informational,110000,65,csv,Matchup stats
+689,3,3,/nfl/{season}/oahu-hawaii-united-states-{date},oahu hawaii united states,Informational,60500,65,csv,Matchup stats
+690,3,3,/nfl/{season}/pj-washington-stats-{date},pj washington stats,Informational,90500,65,csv,Matchup stats
+691,3,3,/nfl/{season}/stats-for-spotify-{date},stats for spotify,"Informational, Commercial",90500,65,csv,Matchup stats
+692,3,3,/nfl/{season}/blue-mountain-state-{date},blue mountain state,Informational,110000,66,csv,Matchup stats
+693,3,3,/nfl/{season}/cooper-kupp-stats-{date},cooper kupp stats,Informational,90500,66,csv,Matchup stats
+694,3,3,/nfl/{season}/derrick-white-stats-{date},derrick white stats,Informational,201000,66,csv,Matchup stats
+695,3,3,/nfl/{season}/domantas-sabonis-stats-{date},domantas sabonis stats,Informational,135000,66,csv,Matchup stats
+696,3,3,/nfl/{season}/iowa-state-football-{date},iowa state football,Informational,550000,66,csv,Matchup stats
+697,3,3,/nfl/{season}/jalen-brunson-stats-{date},jalen brunson stats,Informational,301000,66,csv,Matchup stats
+698,3,3,/nfl/{season}/jalen-duren-stats-{date},jalen duren stats,Informational,135000,66,csv,Matchup stats
+699,3,3,/nfl/{season}/jalen-williams-stats-{date},jalen williams stats,Informational,246000,66,csv,Matchup stats
+700,3,3,/nfl/{season}/max-christie-stats-{date},max christie stats,Informational,60500,66,csv,Matchup stats
+701,3,3,/nfl/{season}/sabonis-stats-{date},sabonis stats,Informational,74000,66,csv,Matchup stats
+702,3,3,/nfl/{season}/state-farm-stadium-{date},state farm stadium,"Informational, Navigational",90500,66,csv,Matchup stats
+703,3,3,/nfl/{season}/terry-mclaurin-stats-{date},terry mclaurin stats,Informational,110000,66,csv,Matchup stats
+704,3,3,/nfl/{season}/trey-murphy-stats-{date},trey murphy stats,Informational,74000,66,csv,Matchup stats
+705,3,3,/nfl/{season}/aaron-judge-stats-{date},aaron judge stats,Informational,165000,67,csv,Matchup stats
+706,3,3,/nfl/{season}/anthony-davis-stats-{date},anthony davis stats,Informational,246000,67,csv,Matchup stats
+707,3,3,/nfl/{season}/caitlin-clark-stats-{date},caitlin clark stats,Informational,74000,67,csv,Matchup stats
+708,3,3,/nfl/{season}/deandre-ayton-stats-{date},deandre ayton stats,Informational,74000,67,csv,Matchup stats
+709,3,3,/nfl/{season}/juan-soto-stats-{date},juan soto stats,Informational,110000,67,csv,Matchup stats
+710,3,3,/nfl/{season}/malik-beasley-stats-{date},malik beasley stats,Informational,90500,67,csv,Matchup stats
+711,3,3,/nfl/{season}/palmetto-state-{date},palmetto state,"Navigational, Transactional",165000,67,csv,Matchup stats
+712,3,3,/nfl/{season}/pascal-siakam-stats-{date},pascal siakam stats,Informational,246000,67,csv,Matchup stats
+713,3,3,/nfl/{season}/walker-kessler-stats-{date},walker kessler stats,Informational,74000,67,csv,Matchup stats
+714,3,3,/nfl/{season}/50-states-{date},50 states,Informational,135000,68,csv,Matchup stats
+715,3,3,/nfl/{season}/al-horford-stats-{date},al horford stats,Informational,60500,68,csv,Matchup stats
+716,3,3,/nfl/{season}/amen-thompson-stats-{date},amen thompson stats,Informational,135000,68,csv,Matchup stats
+717,3,3,/nfl/{season}/deebo-samuel-stats-{date},deebo samuel stats,Informational,60500,68,csv,Matchup stats
+718,3,3,/nfl/{season}/demar-derozan-stats-{date},demar derozan stats,Informational,165000,68,csv,Matchup stats
+719,3,3,/nfl/{season}/desmond-bane-stats-{date},desmond bane stats,Informational,135000,68,csv,Matchup stats
+720,3,3,/nfl/{season}/fred-vanvleet-stats-{date},fred vanvleet stats,Informational,90500,68,csv,Matchup stats
+721,3,3,/nfl/{season}/ja-marr-chase-stats-{date},ja marr chase stats,Informational,60500,68,csv,Matchup stats
+722,3,3,/nfl/{season}/lonzo-ball-stats-{date},lonzo ball stats,Informational,74000,68,csv,Matchup stats
+723,3,3,/nfl/{season}/myles-turner-stats-{date},myles turner stats,Informational,165000,68,csv,Matchup stats
+724,3,3,/nfl/{season}/tee-higgins-stats-{date},tee higgins stats,Informational,74000,68,csv,Matchup stats
+725,3,3,/nfl/{season}/texas-state-university-{date},texas state university,"Navigational, Transactional",110000,68,csv,Matchup stats
+726,3,3,/nfl/{season}/2024-united-states-presidential-election-in-nevada-{date},2024 united states presidential election in nevada,Informational,823000,69,csv,Matchup stats
+727,3,3,/nfl/{season}/boise-state-football-{date},boise state football,Informational,450000,69,csv,Matchup stats
+728,3,3,/nfl/{season}/buddy-hield-stats-{date},buddy hield stats,Informational,110000,69,csv,Matchup stats
+729,3,3,/nfl/{season}/dalton-knecht-stats-{date},dalton knecht stats,Informational,90500,69,csv,Matchup stats
+730,3,3,/nfl/{season}/deandre-hopkins-stats-{date},deandre hopkins stats,Informational,90500,69,csv,Matchup stats
+731,3,3,/nfl/{season}/george-pickens-stats-{date},george pickens stats,Informational,90500,69,csv,Matchup stats
+732,3,3,/nfl/{season}/lakers-vs-denver-nuggets-match-player-stats-{date},lakers vs denver nuggets match player stats,Commercial,165000,69,csv,lakers vs denver nuggets matchup
+733,3,3,/nfl/{season}/malik-nabers-stats-{date},malik nabers stats,Informational,60500,69,csv,Matchup stats
+734,3,3,/nfl/{season}/montclair-state-university-{date},montclair state university,Navigational,110000,69,csv,Matchup stats
+735,3,3,/nfl/{season}/zay-flowers-stats-{date},zay flowers stats,Informational,74000,69,csv,Matchup stats
+736,3,3,/nfl/{season}/brandin-podziemski-stats-{date},brandin podziemski stats,Informational,74000,70,csv,Matchup stats
+737,3,3,/nfl/{season}/cj-mccollum-stats-{date},cj mccollum stats,Informational,90500,70,csv,Matchup stats
+738,3,3,/nfl/{season}/drake-maye-stats-{date},drake maye stats,Informational,60500,70,csv,Matchup stats
+739,3,3,/nfl/{season}/jordan-love-stats-{date},jordan love stats,Informational,110000,70,csv,Matchup stats
+740,3,3,/nfl/{season}/kent-state-university-{date},kent state university,Navigational,60500,70,csv,Matchup stats
+741,3,3,/nfl/{season}/nc-state-football-{date},nc state football,Informational,165000,70,csv,Matchup stats
+742,3,3,/nfl/{season}/payton-pritchard-stats-{date},payton pritchard stats,Informational,90500,70,csv,Matchup stats
+743,3,3,/nfl/{season}/penn-state-game-{date},penn state game,Informational,135000,70,csv,Matchup stats
+744,3,3,/nfl/{season}/secretary-of-state-michigan-{date},secretary of state michigan,Navigational,74000,70,csv,Matchup stats
+745,3,3,/nfl/{season}/state-farm-login-{date},state farm login,"Navigational, Transactional",450000,70,csv,Matchup stats
+746,3,3,/nfl/{season}/staten-island-ferry-{date},staten island ferry,"Informational, Navigational",60500,70,csv,Matchup stats
+747,3,3,/nfl/{season}/washington-state-football-{date},washington state football,Informational,60500,70,csv,Matchup stats
+748,3,3,/nfl/{season}/zach-lavine-stats-{date},zach lavine stats,Informational,165000,70,csv,Matchup stats
+749,3,3,/nfl/{season}/alperen-sengun-stats-{date},alperen sengun stats,Informational,165000,71,csv,Matchup stats
+750,3,3,/nfl/{season}/bam-adebayo-stats-{date},bam adebayo stats,Informational,201000,71,csv,Matchup stats
+751,3,3,/nfl/{season}/bijan-robinson-stats-{date},bijan robinson stats,Informational,90500,71,csv,Matchup stats
+752,3,3,/nfl/{season}/de-aaron-fox-stats-{date},de aaron fox stats,Informational,60500,71,csv,Matchup stats
+753,3,3,/nfl/{season}/dejounte-murray-stats-{date},dejounte murray stats,Informational,60500,71,csv,Matchup stats
+754,3,3,/nfl/{season}/dk-metcalf-stats-{date},dk metcalf stats,Informational,90500,71,csv,Matchup stats
+755,3,3,/nfl/{season}/evan-mobley-stats-{date},evan mobley stats,Informational,201000,71,csv,Matchup stats
+756,3,3,/nfl/{season}/franz-wagner-stats-{date},franz wagner stats,Informational,165000,71,csv,Matchup stats
+757,3,3,/nfl/{season}/jamal-murray-stats-{date},jamal murray stats,Informational,201000,71,csv,Matchup stats
+758,3,3,/nfl/{season}/jimmy-butler-stats-{date},jimmy butler stats,Informational,301000,71,csv,Matchup stats
+759,3,3,/nfl/{season}/san-jose-state-football-{date},san jose state football,Informational,74000,71,csv,Matchup stats
+760,3,3,/nfl/{season}/spotify-stats-{date},spotify stats,"Informational, Commercial",246000,71,csv,Matchup stats
+761,3,3,/nfl/{season}/us-map-with-states-{date},us map with states,Informational,74000,71,csv,Matchup stats
+762,3,3,/nfl/{season}/2024-united-states-elections-dates-{date},2024 united states elections dates,Informational,301000,72,csv,Matchup stats
+763,3,3,/nfl/{season}/cam-skattebo-stats-{date},cam skattebo stats,Informational,60500,72,csv,Matchup stats
+764,3,3,/nfl/{season}/christian-mccaffrey-stats-{date},christian mccaffrey stats,Informational,60500,72,csv,Matchup stats
+765,3,3,/nfl/{season}/david-montgomery-stats-{date},david montgomery stats,Informational,74000,72,csv,Matchup stats
+766,3,3,/nfl/{season}/jaden-mcdaniels-stats-{date},jaden mcdaniels stats,Informational,110000,72,csv,Matchup stats
+767,3,3,/nfl/{season}/kyle-kuzma-stats-{date},kyle kuzma stats,Informational,110000,72,csv,Matchup stats
+768,3,3,/nfl/{season}/mississippi-state-football-{date},mississippi state football,Informational,165000,72,csv,Matchup stats
+769,3,3,/nfl/{season}/morgan-state-university-{date},morgan state university,Navigational,90500,72,csv,Matchup stats
+770,3,3,/nfl/{season}/rudy-gobert-stats-{date},rudy gobert stats,Informational,165000,72,csv,Matchup stats
+771,3,3,/nfl/{season}/scottie-barnes-stats-{date},scottie barnes stats,Informational,135000,72,csv,Matchup stats
+772,3,3,/nfl/{season}/2024-united-states-presidential-election-in-georgia-{date},2024 united states presidential election in georgia,Informational,1000000,73,csv,Matchup stats
+773,3,3,/nfl/{season}/aj-brown-stats-{date},aj brown stats,Informational,135000,73,csv,Matchup stats
+774,3,3,/nfl/{season}/ashton-jeanty-stats-{date},ashton jeanty stats,Informational,110000,73,csv,Matchup stats
+775,3,3,/nfl/{season}/christian-braun-stats-{date},christian braun stats,Informational,90500,73,csv,Matchup stats
+776,3,3,/nfl/{season}/darius-garland-stats-{date},darius garland stats,Informational,201000,73,csv,Matchup stats
+777,3,3,/nfl/{season}/davante-adams-stats-{date},davante adams stats,Informational,74000,73,csv,Matchup stats
+778,3,3,/nfl/{season}/how-to-vote-2024-united-states-elections-{date},how to vote 2024 united states elections,Informational,110000,73,csv,Matchup stats
+779,3,3,/nfl/{season}/josh-giddey-stats-{date},josh giddey stats,Informational,165000,73,csv,Matchup stats
+780,3,3,/nfl/{season}/kennesaw-state-university-{date},kennesaw state university,"Navigational, Commercial",110000,73,csv,Matchup stats
+781,3,3,/nfl/{season}/sac-state-{date},sac state,Navigational,110000,73,csv,Matchup stats
+782,3,3,/nfl/{season}/tyrese-haliburton-stats-{date},tyrese haliburton stats,Informational,301000,73,csv,Matchup stats
+783,3,3,/nfl/{season}/2024-united-states-senate-elections-{date},2024 united states senate elections,Informational,165000,74,csv,Matchup stats
+784,3,3,/nfl/{season}/andrew-wiggins-stats-{date},andrew wiggins stats,Informational,110000,74,csv,Matchup stats
+785,3,3,/nfl/{season}/florida-state-football-{date},florida state football,Informational,301000,74,csv,Matchup stats
+786,3,3,/nfl/{season}/golden-state-warriors-games-{date},golden state warriors games,Informational,450000,74,csv,Matchup stats
+787,3,3,/nfl/{season}/jahmyr-gibbs-stats-{date},jahmyr gibbs stats,Informational,110000,74,csv,Matchup stats
+788,3,3,/nfl/{season}/jalen-suggs-stats-{date},jalen suggs stats,Informational,60500,74,csv,Matchup stats
+789,3,3,/nfl/{season}/jayson-tatum-stats-{date},jayson tatum stats,Informational,368000,74,csv,Matchup stats
+790,3,3,/nfl/{season}/jordan-poole-stats-{date},jordan poole stats,Informational,165000,74,csv,Matchup stats
+791,3,3,/nfl/{season}/lamelo-ball-stats-{date},lamelo ball stats,Informational,301000,74,csv,Matchup stats
+792,3,3,/nfl/{season}/michael-porter-jr-stats-{date},michael porter jr stats,Informational,135000,74,csv,Matchup stats
+793,3,3,/nfl/{season}/michigan-secretary-of-state-{date},michigan secretary of state,Navigational,60500,74,csv,Matchup stats
+794,3,3,/nfl/{season}/mike-evans-stats-{date},mike evans stats,Informational,135000,74,csv,Matchup stats
+795,3,3,/nfl/{season}/oklahoma-state-football-{date},oklahoma state football,Navigational,165000,74,csv,Matchup stats
+796,3,3,/nfl/{season}/russell-wilson-stats-{date},russell wilson stats,Informational,110000,74,csv,Matchup stats
+797,3,3,/nfl/{season}/coby-white-stats-{date},coby white stats,Informational,110000,75,csv,Matchup stats
+798,3,3,/nfl/{season}/daniel-jones-stats-{date},daniel jones stats,Informational,74000,75,csv,Matchup stats
+799,3,3,/nfl/{season}/free-state-of-jones-{date},free state of jones,Informational,74000,75,csv,Matchup stats
+800,3,3,/nfl/{season}/jaylen-brown-stats-{date},jaylen brown stats,Informational,246000,75,csv,Matchup stats
+801,3,3,/nfl/{season}/justin-jefferson-stats-{date},justin jefferson stats,Informational,165000,75,csv,Matchup stats
+802,3,3,/nfl/{season}/kent-state-{date},kent state,Navigational,60500,75,csv,Matchup stats
+803,3,3,/nfl/{season}/state-map-{date},state map,Informational,74000,75,csv,Matchup stats
+804,3,3,/nfl/{season}/victor-wembanyama-stats-{date},victor wembanyama stats,Informational,246000,75,csv,Matchup stats
+805,3,3,/nfl/{season}/ben-simmons-stats-{date},ben simmons stats,Informational,90500,76,csv,Matchup stats
+806,3,3,/nfl/{season}/cam-thomas-stats-{date},cam thomas stats,Informational,60500,76,csv,Matchup stats
+807,3,3,/nfl/{season}/cj-stroud-stats-{date},cj stroud stats,Informational,110000,76,csv,Matchup stats
+808,3,3,/nfl/{season}/deaaron-fox-stats-{date},de'aaron fox stats,Informational,74000,76,csv,Matchup stats
+809,3,3,/nfl/{season}/geno-smith-stats-{date},geno smith stats,Informational,74000,76,csv,Matchup stats
+810,3,3,/nfl/{season}/golden-state-warriors-standings-{date},golden state warriors standings,Informational,201000,76,csv,Matchup stats
+811,3,3,/nfl/{season}/jared-goff-stats-{date},jared goff stats,Informational,135000,76,csv,Matchup stats
+812,3,3,/nfl/{season}/jarrett-allen-stats-{date},jarrett allen stats,Informational,165000,76,csv,Matchup stats
+813,3,3,/nfl/{season}/josh-jacobs-stats-{date},josh jacobs stats,Informational,110000,76,csv,Matchup stats
+814,3,3,/nfl/{season}/kawhi-leonard-stats-{date},kawhi leonard stats,Informational,165000,76,csv,Matchup stats
+815,3,3,/nfl/{season}/michael-jordan-stats-{date},michael jordan stats,Informational,60500,76,csv,Matchup stats
+816,3,3,/nfl/{season}/michigan-state-football-{date},michigan state football,Informational,368000,76,csv,Matchup stats
+817,3,3,/nfl/{season}/mikal-bridges-stats-{date},mikal bridges stats,Informational,201000,76,csv,Matchup stats
+818,3,3,/nfl/{season}/rj-barrett-stats-{date},rj barrett stats,Informational,110000,76,csv,Matchup stats
+819,3,3,/nfl/{season}/shai-gilgeous-alexander-stats-{date},shai gilgeous alexander stats,Informational,246000,76,csv,Matchup stats
+820,3,3,/nfl/{season}/united-states-federal-judge-{date},united states federal judge,Informational,74000,76,csv,Matchup stats
+821,3,3,/nfl/{season}/us-state-map-{date},us state map,Informational,90500,76,csv,Matchup stats
+822,3,3,/nfl/{season}/wemby-stats-{date},wemby stats,Informational,60500,76,csv,Matchup stats
+823,3,3,/nfl/{season}/baker-mayfield-stats-{date},baker mayfield stats,Informational,135000,77,csv,Matchup stats
+824,3,3,/nfl/{season}/brook-lopez-stats-{date},brook lopez stats,Informational,110000,77,csv,Matchup stats
+825,3,3,/nfl/{season}/bryce-young-stats-{date},bryce young stats,Informational,60500,77,csv,Matchup stats
+826,3,3,/nfl/{season}/chris-paul-stats-{date},chris paul stats,Informational,135000,77,csv,Matchup stats
+827,3,3,/nfl/{season}/damian-lillard-stats-{date},damian lillard stats,Informational,201000,77,csv,Matchup stats
+828,3,3,/nfl/{season}/draymond-green-stats-{date},draymond green stats,Informational,201000,77,csv,Matchup stats
+829,3,3,/nfl/{season}/paul-george-stats-{date},paul george stats,Informational,135000,77,csv,Matchup stats
+830,3,3,/nfl/{season}/porzingis-stats-{date},porzingis stats,Informational,74000,77,csv,Matchup stats
+831,3,3,/nfl/{season}/state-refund-{date},state refund,Informational,60500,77,csv,Matchup stats
+832,3,3,/nfl/{season}/wayne-state-university-{date},wayne state university,Navigational,60500,77,csv,Matchup stats
+833,3,3,/nfl/{season}/austin-reaves-stats-{date},austin reaves stats,Informational,246000,78,csv,Matchup stats
+834,3,3,/nfl/{season}/devonta-smith-stats-{date},devonta smith stats,Informational,90500,78,csv,Matchup stats
+835,3,3,/nfl/{season}/jalen-hurts-stats-{date},jalen hurts stats,Informational,246000,78,csv,Matchup stats
+836,3,3,/nfl/{season}/kristaps-porzingis-stats-{date},kristaps porzingis stats,Informational,60500,78,csv,Matchup stats
+837,3,3,/nfl/{season}/nc-state-{date},nc state,"Informational, Navigational",74000,78,csv,Matchup stats
+838,3,3,/nfl/{season}/paolo-banchero-stats-{date},paolo banchero stats,Informational,165000,78,csv,Matchup stats
+839,3,3,/nfl/{season}/tyler-herro-stats-{date},tyler herro stats,Informational,201000,78,csv,Matchup stats
+840,3,3,/nfl/{season}/tyreek-hill-stats-{date},tyreek hill stats,Informational,90500,78,csv,Matchup stats
+841,3,3,/nfl/{season}/us-states-{date},us states,Informational,110000,78,csv,Matchup stats
+842,3,3,/nfl/{season}/anthony-edwards-stats-{date},anthony edwards stats,Informational,450000,79,csv,Matchup stats
+843,3,3,/nfl/{season}/bradley-beal-stats-{date},bradley beal stats,Informational,110000,79,csv,Matchup stats
+844,3,3,/nfl/{season}/cade-cunningham-stats-{date},cade cunningham stats,Informational,301000,79,csv,Matchup stats
+845,3,3,/nfl/{season}/jalen-green-stats-{date},jalen green stats,Informational,246000,79,csv,Matchup stats
+846,3,3,/nfl/{season}/josh-hart-stats-{date},josh hart stats,Informational,246000,79,csv,Matchup stats
+847,3,3,/nfl/{season}/bronny-james-stats-{date},bronny james stats,Informational,165000,80,csv,Matchup stats
+848,3,3,/nfl/{season}/ceedee-lamb-stats-{date},ceedee lamb stats,Informational,90500,80,csv,Matchup stats
+849,3,3,/nfl/{season}/florida-state-university-{date},florida state university,Navigational,165000,80,csv,Matchup stats
+850,3,3,/nfl/{season}/jokic-stats-{date},jokic stats,Informational,165000,80,csv,Matchup stats
+851,3,3,/nfl/{season}/karl-anthony-towns-stats-{date},karl anthony towns stats,Informational,301000,80,csv,Matchup stats
+852,3,3,/nfl/{season}/matthew-stafford-stats-{date},matthew stafford stats,Informational,90500,80,csv,Matchup stats
+853,3,3,/nfl/{season}/nikola-jokic-stats-{date},nikola jokic stats,Informational,368000,80,csv,Matchup stats
+854,3,3,/nfl/{season}/ohio-state-buckeyes-football-{date},ohio state buckeyes football,Informational,246000,80,csv,Matchup stats
+855,3,3,/nfl/{season}/ohio-state-football-{date},ohio state football,Informational,2740000,80,csv,Matchup stats
+856,3,3,/nfl/{season}/oregon-state-football-{date},oregon state football,Informational,135000,80,csv,Matchup stats
+857,3,3,/nfl/{season}/russell-westbrook-stats-{date},russell westbrook stats,Informational,201000,80,csv,Matchup stats
+858,3,3,/nfl/{season}/travis-kelce-stats-{date},travis kelce stats,Informational,165000,80,csv,Matchup stats
+859,3,3,/nfl/{season}/united-states-department-of-veterans-affairs-{date},united states department of veterans affairs,"Informational, Navigational",90500,80,csv,Matchup stats
+860,3,3,/nfl/{season}/zion-williamson-stats-{date},zion williamson stats,Informational,135000,80,csv,Matchup stats
+861,3,3,/nfl/{season}/brock-purdy-stats-{date},brock purdy stats,Informational,60500,81,csv,Matchup stats
+862,3,3,/nfl/{season}/cam-johnson-stats-{date},cam johnson stats,Informational,74000,81,csv,Matchup stats
+863,3,3,/nfl/{season}/chet-holmgren-stats-{date},chet holmgren stats,Informational,165000,81,csv,Matchup stats
+864,3,3,/nfl/{season}/devin-booker-stats-{date},devin booker stats,Informational,201000,81,csv,Matchup stats
+865,3,3,/nfl/{season}/ja-morant-stats-{date},ja morant stats,Informational,246000,81,csv,Matchup stats
+866,3,3,/nfl/{season}/jayden-daniels-stats-{date},jayden daniels stats,Informational,201000,81,csv,Matchup stats
+867,3,3,/nfl/{season}/ohtani-stats-{date},ohtani stats,Informational,110000,81,csv,Matchup stats
+868,3,3,/nfl/{season}/staten-island-{date},staten island,Informational,110000,81,csv,Matchup stats
+869,3,3,/nfl/{season}/states-{date},states,Informational,135000,81,csv,Matchup stats
+870,3,3,/nfl/{season}/trae-young-stats-{date},trae young stats,Informational,301000,81,csv,Matchup stats
+871,3,3,/nfl/{season}/2024-united-states-presidential-election-dates-{date},2024 united states presidential election dates,Informational,110000,82,csv,Matchup stats
+872,3,3,/nfl/{season}/curry-stats-{date},curry stats,Informational,60500,82,csv,Matchup stats
+873,3,3,/nfl/{season}/donovan-mitchell-stats-{date},donovan mitchell stats,Informational,301000,82,csv,Matchup stats
+874,3,3,/nfl/{season}/joe-burrow-stats-{date},joe burrow stats,Informational,165000,82,csv,Matchup stats
+875,3,3,/nfl/{season}/kevin-durant-stats-{date},kevin durant stats,Informational,246000,82,csv,Matchup stats
+876,3,3,/nfl/{season}/la-liga-stats-{date},la liga stats,Informational,246000,82,csv,Matchup stats
+877,3,3,/nfl/{season}/lamar-jackson-stats-{date},lamar jackson stats,Informational,246000,82,csv,Matchup stats
+878,3,3,/nfl/{season}/oregon-state-university-{date},oregon state university,Navigational,74000,82,csv,Matchup stats
+879,3,3,/nfl/{season}/san-diego-state-university-{date},san diego state university,Navigational,74000,82,csv,Matchup stats
+880,3,3,/nfl/{season}/wheres-my-state-refund-{date},where's my state refund,Informational,90500,82,csv,Matchup stats
+881,3,3,/nfl/{season}/aaron-rodgers-stats-{date},aaron rodgers stats,Informational,135000,83,csv,Matchup stats
+882,3,3,/nfl/{season}/bo-nix-stats-{date},bo nix stats,Informational,135000,83,csv,Matchup stats
+883,3,3,/nfl/{season}/caleb-williams-stats-{date},caleb williams stats,Informational,165000,83,csv,Matchup stats
+884,3,3,/nfl/{season}/champions-league-stats-{date},champions league stats,Informational,110000,83,csv,Matchup stats
+885,3,3,/nfl/{season}/giannis-antetokounmpo-stats-{date},giannis antetokounmpo stats,Informational,368000,83,csv,Matchup stats
+886,3,3,/nfl/{season}/heads-of-state-{date},heads of state,Informational,90500,83,csv,Matchup stats
+887,3,3,/nfl/{season}/justin-fields-stats-{date},justin fields stats,Informational,60500,83,csv,Matchup stats
+888,3,3,/nfl/{season}/justin-herbert-stats-{date},justin herbert stats,Informational,110000,83,csv,Matchup stats
+889,3,3,/nfl/{season}/kyrie-irving-stats-{date},kyrie irving stats,Informational,201000,83,csv,Matchup stats
+890,3,3,/nfl/{season}/luka-doncic-stats-{date},luka doncic stats,Informational,450000,83,csv,Matchup stats
+891,3,3,/nfl/{season}/penn-state-nittany-lions-football-{date},penn state nittany lions football,Informational,74000,83,csv,Matchup stats
+892,3,3,/nfl/{season}/steph-curry-stats-{date},steph curry stats,Informational,368000,83,csv,Matchup stats
+893,3,3,/nfl/{season}/arizona-state-university-{date},arizona state university,"Navigational, Commercial",135000,84,csv,Matchup stats
+894,3,3,/nfl/{season}/colorado-state-university-{date},colorado state university,"Informational, Navigational",60500,84,csv,Matchup stats
+895,3,3,/nfl/{season}/electric-state-{date},electric state,Informational,110000,84,csv,Matchup stats
+896,3,3,/nfl/{season}/josh-allen-stats-{date},josh allen stats,Informational,246000,84,csv,Matchup stats
+897,3,3,/nfl/{season}/shai-gilgeous-alexander-stats-{date},shai gilgeous-alexander stats,Informational,201000,84,csv,Matchup stats
+898,3,3,/nfl/{season}/state-employees-credit-union-{date},state employees credit union,"Navigational, Commercial",246000,84,csv,Matchup stats
+899,3,3,/nfl/{season}/stephen-curry-stats-{date},stephen curry stats,Informational,60500,84,csv,Matchup stats
+900,3,3,/nfl/{season}/electoral-votes-by-state-{date},electoral votes by state,Informational,368000,85,csv,Matchup stats
+901,3,3,/nfl/{season}/kansas-state-football-{date},kansas state football,"Informational, Navigational",165000,85,csv,Matchup stats
+902,3,3,/nfl/{season}/klay-thompson-stats-{date},klay thompson stats,Informational,201000,85,csv,Matchup stats
+903,3,3,/nfl/{season}/sam-darnold-stats-{date},sam darnold stats,Informational,135000,85,csv,Matchup stats
+904,3,3,/nfl/{season}/tua-tagovailoa-stats-{date},tua tagovailoa stats,Informational,60500,85,csv,Matchup stats
+905,3,3,/nfl/{season}/2024-united-states-presidential-election-results-{date},2024 united states presidential election results,Informational,1000000,86,csv,Matchup stats
+906,3,3,/nfl/{season}/dak-prescott-stats-{date},dak prescott stats,Informational,74000,86,csv,Matchup stats
+907,3,3,/nfl/{season}/empire-state-building-{date},empire state building,Informational,301000,86,csv,Matchup stats
+908,3,3,/nfl/{season}/james-harden-stats-{date},james harden stats,Informational,368000,86,csv,Matchup stats
+909,3,3,/nfl/{season}/joel-embiid-stats-{date},joel embiid stats,Informational,110000,86,csv,Matchup stats
+910,3,3,/nfl/{season}/georgia-state-university-{date},georgia state university,Navigational,74000,87,csv,Matchup stats
+911,3,3,/nfl/{season}/michigan-state-university-{date},michigan state university,Navigational,74000,87,csv,Matchup stats
+912,3,3,/nfl/{season}/nfl-stats-{date},nfl stats,Informational,135000,87,csv,Matchup stats
+913,3,3,/nfl/{season}/stats-{date},stats,Informational,74000,87,csv,Matchup stats
+914,3,3,/nfl/{season}/ohio-state-university-{date},ohio state university,Navigational,110000,88,csv,Matchup stats
+915,3,3,/nfl/{season}/sga-stats-{date},sga stats,Informational,90500,88,csv,Matchup stats
+916,3,3,/nfl/{season}/swing-states-2024-{date},swing states 2024,Informational,90500,88,csv,Matchup stats
+917,3,3,/nfl/{season}/washington-state-university-{date},washington state university,"Navigational, Commercial",60500,88,csv,Matchup stats
+918,3,3,/nfl/{season}/2024-united-states-elections-polls-{date},2024 united states elections polls,Informational,110000,90,csv,Matchup stats
+919,3,3,/nfl/{season}/state-farm-insurance-{date},state farm insurance,"Navigational, Commercial",246000,90,csv,Matchup stats
+920,3,3,/nfl/{season}/united-states-postal-service-{date},united states postal service,"Navigational, Commercial",368000,90,csv,Matchup stats
+921,3,3,/nfl/{season}/ohio-state-{date},ohio state,Informational,550000,91,csv,Matchup stats
+922,3,3,/nfl/{season}/the-electric-state-{date},the electric state,Informational,246000,91,csv,Matchup stats
+923,3,3,/nfl/{season}/2024-united-states-elections-results-{date},2024 united states elections results,Informational,3350000,92,csv,Matchup stats
+924,3,3,/nfl/{season}/nba-stats-{date},nba stats,Navigational,165000,92,csv,Matchup stats
+925,3,3,/nfl/{season}/new-york-state-lottery-{date},new york state lottery,Navigational,74000,92,csv,Matchup stats
+926,3,3,/nfl/{season}/patrick-mahomes-stats-{date},patrick mahomes stats,Informational,201000,92,csv,Matchup stats
+927,3,3,/nfl/{season}/state-fair-{date},state fair,Commercial,60500,93,csv,Matchup stats
+928,3,3,/nfl/{season}/2024-united-states-presidential-election-{date},2024 united states presidential election,Informational,7480000,94,csv,Matchup stats
+929,3,3,/nfl/{season}/boise-state-{date},boise state,Navigational,90500,94,csv,Matchup stats
+930,3,3,/nfl/{season}/lebron-stats-{date},lebron stats,Informational,74000,94,csv,Matchup stats
+931,3,3,/nfl/{season}/2024-united-states-elections-votes-{date},2024 united states elections votes,Informational,74000,95,csv,Matchup stats
+932,3,3,/nfl/{season}/lebron-james-stats-{date},lebron james stats,Informational,550000,95,csv,Matchup stats
+933,3,3,/nfl/{season}/who-is-the-president-of-the-united-states-{date},who is the president of the united states,Informational,135000,95,csv,Matchup stats
+934,3,3,/nfl/{season}/2024-united-states-elections-map-{date},2024 united states elections map,Informational,135000,96,csv,Matchup stats
+935,3,3,/nfl/{season}/state-{date},state,Informational,90500,96,csv,Matchup stats
+936,3,3,/nfl/{season}/2024-united-states-elections-{date},2024 united states elections,Informational,823000,98,csv,Matchup stats
+937,3,3,/nfl/{season}/premier-league-stats-{date},premier league stats,Informational,246000,98,csv,Matchup stats
+938,3,3,/nfl/{season}/supreme-court-of-the-united-states-{date},supreme court of the united states,Navigational,90500,98,csv,Matchup stats
+939,3,3,/nfl/{season}/washington-state-{date},washington state,Informational,90500,98,csv,Matchup stats
+940,3,3,/nfl/{season}/golden-state-warriors-{date},golden state warriors,Informational,2240000,99,csv,Matchup stats
+941,3,3,/nfl/{season}/2024-united-states-presidential-election-polls-{date},2024 united states presidential election polls,Informational,74000,100,csv,Matchup stats
+942,3,3,/nfl/{season}/all-state-{date},all state,Navigational,135000,100,csv,Matchup stats
+943,3,3,/nfl/{season}/all-state-quotes-{date},all state quotes,Navigational,60500,100,csv,Matchup stats
+944,3,3,/nfl/{season}/florida-state-{date},florida state,Navigational,74000,100,csv,Matchup stats
+945,3,3,/nfl/{season}/golden-state-{date},golden state,Informational,110000,100,csv,Matchup stats
+946,3,3,/nfl/{season}/iowa-state-{date},iowa state,Navigational,74000,100,csv,Matchup stats
+947,3,3,/nfl/{season}/michigan-state-{date},michigan state,Navigational,90500,100,csv,Matchup stats
+948,3,3,/nfl/{season}/mlb-stats-{date},mlb stats,Navigational,110000,100,csv,Matchup stats
+949,3,3,/nfl/{season}/penn-state-{date},penn state,Navigational,450000,100,csv,Matchup stats
+950,3,3,/nfl/{season}/penn-state-football-{date},penn state football,Informational,2240000,100,csv,Matchup stats
+951,3,3,/nfl/{season}/secretary-of-state-{date},secretary of state,"Informational, Commercial",368000,100,csv,Matchup stats
+952,3,3,/nfl/{season}/state-farm-{date},state farm,"Navigational, Commercial",1500000,100,csv,Matchup stats
+953,3,3,/nfl/{season}/united-states-{date},united states,Informational,550000,100,csv,Matchup stats

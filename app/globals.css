@@ -1,26 +1,74 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --font-ui: 'Inter', -apple-system, system-ui, sans-serif;
+    --font-data: 'Roboto Mono', monospace;
+
+    /* Light Theme Palette */
+    --glass-bg: rgba(255, 255, 255, 0.75);
+    --glass-border: rgba(255, 255, 255, 0.4);
+    --glass-highlight: rgba(255, 255, 255, 0.8);
+
+    /* Text Colors */
+    --text-primary: #1f2937;
+    /* Gray-800 */
+    --text-secondary: #4b5563;
+    /* Gray-600 */
+    --text-tertiary: #9ca3af;
+    /* Gray-400 */
+
+    /* Brand Colors (Keep originals or adjust for light mode contrast?) 
+       Dark green might need to be darker.
+    */
+    --accent-success: 16 185 129;
+    --accent-danger: 239 68 68;
+    --accent-primary: 249 115 22;
+    /* Orange-500 */
+  }
+
+  body {
+    @apply text-gray-800 font-sans min-h-screen antialiased overflow-x-hidden;
+    background: radial-gradient(circle at top center, #fff8ef 0%, #f7f3ec 50%, #f4efe6 100%);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .glass-card {
+    background-color: var(--glass-bg);
+    backdrop-filter: blur(16px);
+    border: 1px solid var(--glass-border);
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .glass-card:hover {
+    transform: translateY(-4px);
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+
+  /* Orbs */
+  .orb {
+    @apply absolute rounded-full blur-[80px] pointer-events-none mix-blend-multiply;
+    z-index: -1;
+  }
+
+  .orb-green {
+    background: linear-gradient(135deg, rgba(15, 106, 79, 0.5) 0%, rgba(184, 242, 192, 0.4) 100%);
+  }
+
+  .orb-orange {
+    background: linear-gradient(135deg, rgba(239, 143, 58, 0.6) 0%, rgba(255, 216, 169, 0.6) 100%);
+  }
+
+  .orb-blue {
+    background: linear-gradient(135deg, rgba(26, 79, 122, 0.5) 0%, rgba(147, 194, 242, 0.5) 100%);
+  }
+
+  .badge {
+    @apply text-xs font-bold px-3 py-1 rounded-full flex items-center gap-1.5 uppercase tracking-wide border;
+  }
 }
