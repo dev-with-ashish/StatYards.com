@@ -31,6 +31,8 @@ export async function generateMetadata({ params }) {
 
 // Helper: Try to find real game data
 async function getRealMatchData(matchMock, slug) {
+    // Avoid hammering ESPN during static builds unless explicitly enabled
+    if (process.env.MATCH_REAL_DATA !== "true") return null;
     if (!slug) return null;
 
     // Use canonical slug to handle "Steelers" -> "pittsburgh-steelers"
@@ -79,8 +81,11 @@ export default async function MatchupPage({ params }) {
         notFound();
     }
 
-    // 2. Try to hydrate with REAL data
-    match = await getRealMatchData(match, slug);
+    // 2. Try to hydrate with REAL data (optional)
+    const hydrated = await getRealMatchData(match, slug);
+    if (hydrated) {
+        match = hydrated;
+    }
 
     const relatedMatchups = getRelatedMatchups(match);
     const isPast = match.status === 'past' || match.status === 'final';

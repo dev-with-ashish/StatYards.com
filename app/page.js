@@ -1,9 +1,10 @@
 import { getSportsData } from "@/lib/api";
 import Dashboard from "@/components/Dashboard"; // Next.js resolves .jsx automatically, but good to be aware
 import StatsDisplay from "@/components/StatsDisplay";
+import Leaderboard from "@/components/Leaderboard";
 import playerStatsData from "@/espn_player_stats.json";
 
-export const revalidate = 60; // Refresh data every 60 seconds
+export const revalidate = 120; // Keep in sync with API fetch cache
 
 export const metadata = {
   title: 'NFL Live Dashboard',

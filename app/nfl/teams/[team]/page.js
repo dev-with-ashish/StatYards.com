@@ -8,8 +8,7 @@ import {
     getTeamRoster,
     getTeamDepthChart,
     getTeamInjuries,
-    getTeamStats,
-    getTeamPlayerStats
+    getTeamStats
 } from '@/lib/nfl-service';
 import { TeamTabs } from '@/components/nfl/team-page/TeamTabs';
 
@@ -45,14 +44,14 @@ export default async function TeamPage({ params }) {
     }
 
     // Parallel Data Fetching
-    const [schedule, roster, depthChart, injuries, stats, playerStats] = await Promise.all([
+    const [schedule, roster, depthChart, injuries, stats] = await Promise.all([
         getTeamSchedule(team.slug),
         getTeamRoster(team.slug),
         getTeamDepthChart(team.slug),
         getTeamInjuries(team.slug),
-        getTeamStats(team.slug),
-        getTeamPlayerStats(team.slug)
+        getTeamStats(team.slug)
     ]);
+    const playerStats = buildPlayerStatsTable(roster);
 
     return (
         <main className="min-h-screen relative overflow-hidden">
@@ -112,4 +111,26 @@ export default async function TeamPage({ params }) {
             </div>
         </main>
     );
+}
+
+function buildPlayerStatsTable(roster = []) {
+    if (!Array.isArray(roster) || roster.length === 0) return [];
+
+    const headers = ["Player", "Pos", "Jersey", "Exp", "College"];
+    const rows = roster.slice(0, 60).map((p) => {
+        const player = p.athlete || p;
+        return [
+            player?.displayName || player?.fullName || "—",
+            player?.position?.abbreviation || player?.position?.displayName || "—",
+            player?.jersey || "—",
+            (player?.experience?.years ?? player?.experience ?? "—").toString(),
+            player?.college?.name || player?.college || "—",
+        ];
+    });
+
+    return [{
+        title: "Active Roster Snapshot",
+        headers,
+        rows,
+    }];
 }

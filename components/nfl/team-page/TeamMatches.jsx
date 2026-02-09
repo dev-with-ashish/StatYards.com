@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { getTeamLogo } from '@/lib/nfl-assets';
+import { getCanonicalTeamSlug } from '@/lib/topical-map';
 // Import shared UI components
 import MonthDial from '@/components/MonthDial';
 import DateStrip from '@/components/DateStrip';
@@ -278,10 +279,13 @@ function MatchCard({ game, team, featured }) {
     // Determine status color logic
     const isWin = game.result === 'W';
     const isLoss = game.result === 'L';
+    const homeSlug = getCanonicalTeamSlug(team.name);
+    const oppSlug = getCanonicalTeamSlug(game.opponent.name);
+    const matchupSlug = `${homeSlug}-vs-${oppSlug}-match-player-stats`;
 
     return (
         <Link
-            href={`/nfl/${game.season}/${team.slug}-vs-${game.opponent.slug?.toLowerCase().replace(/\s/g, '-')}-match-player-stats`}
+            href={`/nfl/${game.season}/${matchupSlug}`}
             className={`group glass-card relative overflow-hidden transition-all duration-300 hover:scale-[1.02] hover:shadow-lg ${featured ? 'border-red-200 bg-red-50/30' : ''}`}
         >
             {/* Status Bar */}
@@ -332,5 +336,4 @@ function MatchCard({ game, team, featured }) {
         </Link>
     );
 }
-
 

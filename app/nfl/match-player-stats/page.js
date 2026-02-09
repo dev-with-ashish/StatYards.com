@@ -1,8 +1,8 @@
 import { getSportsData } from "@/lib/api";
 import Dashboard from "@/components/Dashboard";
 
-// Refresh data every 60 seconds
-export const revalidate = 60;
+// Refresh data every 120 seconds (aligned with fetch cache)
+export const revalidate = 120;
 
 export const metadata = {
     title: "NFL Match Player Stats | StatYards",

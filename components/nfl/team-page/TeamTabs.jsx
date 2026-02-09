@@ -11,6 +11,7 @@ import { TeamStats } from './TeamStats';
 
 const TABS = [
     { id: 'matches', label: 'Match Schedule' },
+    { id: 'schedule', label: 'Full Schedule' },
     { id: 'stats', label: 'Stats' },
     { id: 'roster', label: 'Roster' },
     { id: 'depth-chart', label: 'Depth Chart' },
